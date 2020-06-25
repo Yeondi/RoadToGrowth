@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Trap
+  - CanBePickedUp
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Blocking
+  - GroundTiles
+  - Meta
+  - Consumables
+  - Enemies
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Meta
+    uniqueID: 3750667475
+    locked: 0
+  - name: BackGround
+    uniqueID: 2546144631
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Layer_Props1
+    uniqueID: 1425141589
+    locked: 0
+  - name: Layer_Props2
+    uniqueID: 3565012345
+    locked: 0
+  - name: Layer_Props3
+    uniqueID: 3794222631
+    locked: 0
+  - name: Layer_Props4
+    uniqueID: 509186921
+    locked: 0
+  - name: Layer_Props5
+    uniqueID: 2850454087
+    locked: 0
+  - name: Layer_Props6
+    uniqueID: 1749005909
+    locked: 0
+  - name: Ground
+    uniqueID: 3253114415
+    locked: 0
+  - name: Characters
+    uniqueID: 1440796615
+    locked: 0

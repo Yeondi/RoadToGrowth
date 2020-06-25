@@ -1,0 +1,1397 @@
+fileFormatVersion: 2
+guid: d6f534a6122b5084b81976f3b97ff7e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7400489850006909305
+    second: revenant_run_01
+  - first:
+      213: 4571795707204258534
+    second: revenant_run_00
+  - first:
+      213: 1713624150483919207
+    second: revenant_idle_03
+  - first:
+      213: -637908045420609780
+    second: revenant_idle_02
+  - first:
+      213: 5834645998963250975
+    second: revenant_idle_01
+  - first:
+      213: -8845395949455540152
+    second: revenant_idle_00
+  - first:
+      213: 7022845493790658129
+    second: revenant_attack_01
+  - first:
+      213: -97670513493510132
+    second: revenant_attack_00
+  - first:
+      213: -1875969271984112904
+    second: revenant_run_05
+  - first:
+      213: 5597756313477217726
+    second: revenant_run_04
+  - first:
+      213: 7551072553299686216
+    second: revenant_run_03
+  - first:
+      213: 413483708391371259
+    second: revenant_run_02
+  - first:
+      213: -1835369702841099567
+    second: revenant_hurt_00
+  - first:
+      213: 4587019410388666260
+    second: revenant_attack_06
+  - first:
+      213: 2089271779197419234
+    second: revenant_die_04
+  - first:
+      213: 345936202156021492
+    second: revenant_die_05
+  - first:
+      213: 1181190420527858341
+    second: phantom knight-Sheet_16
+  - first:
+      213: -1071226517845499825
+    second: revenant_attack_04
+  - first:
+      213: 133297258237989894
+    second: phantom knight-Sheet_18
+  - first:
+      213: -8670828678088725360
+    second: phantom knight-Sheet_19
+  - first:
+      213: -8250389631381558822
+    second: revenant_attack_03
+  - first:
+      213: -2198421626456547019
+    second: revenant_attack_02
+  - first:
+      213: -6693479821844270097
+    second: phantom knight-Sheet_22
+  - first:
+      213: -1635882493930781615
+    second: revenant_attack_05
+  - first:
+      213: 7712698050695139196
+    second: phantom knight-Sheet_24
+  - first:
+      213: 3777617250226272088
+    second: phantom knight-Sheet_25
+  - first:
+      213: -6548218892973427127
+    second: phantom knight-Sheet_26
+  - first:
+      213: 6160606673770123900
+    second: phantom knight-Sheet_27
+  - first:
+      213: -8054478274592964492
+    second: revenant_die_03
+  - first:
+      213: -4089069262379400870
+    second: revenant_die_02
+  - first:
+      213: -919358739679426446
+    second: revenant_die_01
+  - first:
+      213: -89832791766712286
+    second: revenant_die_00
+  - first:
+      213: -1195274630407961116
+    second: revenant_hurt_02
+  - first:
+      213: -5000724604458274256
+    second: revenant_hurt_01
+  - first:
+      213: -6542604866045564308
+    second: revenant_jump_00
+  - first:
+      213: -8528958526796778086
+    second: phantom knight-Sheet_35
+  - first:
+      213: -166424575043978179
+    second: phantom knight-Sheet_36
+  - first:
+      213: 4522542945970438731
+    second: phantom knight-Sheet_37
+  - first:
+      213: -6752980759109952382
+    second: revenant_jump_01
+  - first:
+      213: 7905076975611698204
+    second: phantom knight-Sheet_39
+  - first:
+      213: 6277731166368713781
+    second: phantom knight-Sheet_40
+  - first:
+      213: -8572174903787696456
+    second: phantom knight-Sheet_41
+  - first:
+      213: 405461006164869367
+    second: phantom knight-Sheet_42
+  - first:
+      213: 251335097665461696
+    second: phantom knight-Sheet_43
+  - first:
+      213: -1009928004313748732
+    second: phantom knight-Sheet_44
+  - first:
+      213: 9086771873518048070
+    second: phantom knight-Sheet_45
+  - first:
+      213: 6916043487161389896
+    second: phantom knight-Sheet_46
+  - first:
+      213: -6983163026945703064
+    second: phantom knight-Sheet_47
+  - first:
+      213: -858225074459978551
+    second: phantom knight-Sheet_48
+  - first:
+      213: -904748476057276072
+    second: phantom knight-Sheet_49
+  - first:
+      213: 1842010830536307472
+    second: revenant_die_07
+  - first:
+      213: 3953939917702506240
+    second: revenant_die_06
+  - first:
+      213: 3108158184054758723
+    second: phantom knight-Sheet_52
+  - first:
+      213: -6740091648707457299
+    second: phantom knight-Sheet_53
+  - first:
+      213: 975691318117417238
+    second: phantom knight-Sheet_54
+  - first:
+      213: -4519542062414561203
+    second: revenant_fall_01
+  - first:
+      213: -7838602120015776578
+    second: revenant_fall_00
+  - first:
+      213: -9051086443914371098
+    second: revenant_jump_03
+  - first:
+      213: 1862621115667923268
+    second: revenant_jump_02
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: revenant_run_01
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 256
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 12}
+        - {x: 5, y: 15}
+        - {x: -1, y: 14}
+        - {x: -4, y: 9}
+        - {x: -9, y: -2}
+        - {x: -17, y: -2}
+        - {x: -17, y: -10}
+        - {x: -9, y: -12}
+        - {x: -1, y: -4}
+        - {x: -1, y: -15}
+        - {x: 7, y: -15}
+        - {x: 7, y: -13}
+        - {x: 4, y: -3}
+        - {x: 8, y: 3}
+      tessellationDetail: 0.4
+      bones: []
+      spriteID: 78e447ed0bd2c4990800000000000000
+      internalID: -7400489850006909305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_run_00
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 256
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -12}
+        - {x: 3, y: -12}
+        - {x: 5, y: -4}
+        - {x: 3, y: 1}
+        - {x: 8, y: 3}
+        - {x: 10, y: 7}
+        - {x: 10, y: 10}
+        - {x: 7, y: 15}
+        - {x: 1, y: 15}
+        - {x: -2, y: 12}
+        - {x: -4, y: 8}
+        - {x: -9, y: 2}
+        - {x: -16, y: -7}
+        - {x: -16, y: -15}
+        - {x: -11, y: -15}
+        - {x: -10, y: -12}
+        - {x: -3, y: -6}
+        - {x: -3, y: -10}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 6eac09929f7427f30800000000000000
+      internalID: 4571795707204258534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_idle_03
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 256
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 15}
+        - {x: -13, y: 9}
+        - {x: -14, y: -18}
+        - {x: 4, y: -18}
+        - {x: 2, y: 8}
+        - {x: -2, y: 15}
+      tessellationDetail: 0.4
+      bones: []
+      spriteID: 761ef10f51408c710800000000000000
+      internalID: 1713624150483919207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_idle_02
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 256
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: -16}
+        - {x: 2, y: -7}
+        - {x: 2, y: -3}
+        - {x: 4, y: 0}
+        - {x: 4, y: 4}
+        - {x: 3, y: 7}
+        - {x: 3, y: 10}
+        - {x: -2, y: 15}
+        - {x: -12, y: 15}
+        - {x: -12, y: -5}
+        - {x: -11, y: -13}
+        - {x: -14, y: -16}
+        - {x: -14, y: -18}
+        - {x: -7, y: -18}
+        - {x: -4, y: -9}
+        - {x: -2, y: -18}
+        - {x: 5, y: -18}
+      tessellationDetail: 0.4
+      bones: []
+      spriteID: c0f37513302b527f0800000000000000
+      internalID: -637908045420609780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_idle_01
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 256
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17db5e6f93d8f050800000000000000
+      internalID: 5834645998963250975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_idle_00
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 256
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8400607bf37de3580800000000000000
+      internalID: -8845395949455540152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_attack_01
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 205
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 14.5, y: -19.5}
+        - {x: 14.5, y: -9.5}
+        - {x: 13.5, y: -5.5}
+        - {x: 8.5, y: 2.5}
+        - {x: 9.5, y: 4.5}
+        - {x: 9.5, y: 12.5}
+        - {x: 2.5, y: 18.5}
+        - {x: -1.5, y: 19.5}
+        - {x: -14.5, y: 19.5}
+        - {x: -14.5, y: 16.5}
+        - {x: -12.5, y: 14.5}
+        - {x: -8.5, y: 11.5}
+        - {x: -7.5, y: 4.5}
+        - {x: -8.5, y: -7.5}
+        - {x: -4.5, y: -12.5}
+        - {x: -4.5, y: -19.5}
+        - {x: 2.5, y: -19.5}
+        - {x: 3.5, y: -18.5}
+        - {x: 6.5, y: -13.5}
+        - {x: 8.5, y: -19.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 15e48d994c8267160800000000000000
+      internalID: 7022845493790658129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_attack_00
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 205
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5, y: -23}
+        - {x: 11, y: -23}
+        - {x: 11, y: -17}
+        - {x: 9, y: 0}
+        - {x: 8, y: 10}
+        - {x: 4, y: 15}
+        - {x: 2, y: 16}
+        - {x: -3, y: 22}
+        - {x: -5, y: 23}
+        - {x: -11, y: 23}
+        - {x: -5, y: 12}
+        - {x: -10, y: 4}
+        - {x: -11, y: -4}
+        - {x: -11, y: -12}
+        - {x: -9, y: -14}
+        - {x: -7, y: -13}
+        - {x: -9, y: -21}
+        - {x: -9, y: -23}
+        - {x: -2, y: -23}
+        - {x: -1, y: -22}
+        - {x: 0, y: -17}
+        - {x: 2, y: -13}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: c08703a7f2105aef0800000000000000
+      internalID: -97670513493510132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_run_05
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 205
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: 1}
+        - {x: 7, y: 4}
+        - {x: 2, y: 15}
+        - {x: 0, y: 13}
+        - {x: -3, y: 12}
+        - {x: -4, y: 10}
+        - {x: -7, y: 8}
+        - {x: -15, y: 1}
+        - {x: -15, y: -10}
+        - {x: -14, y: -11}
+        - {x: -8, y: -10}
+        - {x: -8, y: -15}
+        - {x: 1, y: -15}
+        - {x: 1, y: -4}
+        - {x: 2, y: -1}
+        - {x: 3, y: -1}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 8fab6dde2e737f5e0800000000000000
+      internalID: -1875969271984112904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_run_04
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 205
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7, y: 1}
+        - {x: 5, y: 5}
+        - {x: 4, y: 7}
+        - {x: 5, y: 8}
+        - {x: 5, y: 10}
+        - {x: 4, y: 15}
+        - {x: -11, y: 15}
+        - {x: -13, y: 13}
+        - {x: -12, y: 10}
+        - {x: -8, y: 8}
+        - {x: -10, y: 2}
+        - {x: -15, y: -1}
+        - {x: -18, y: -2}
+        - {x: -18, y: -11}
+        - {x: -6, y: -12}
+        - {x: -3, y: -9}
+        - {x: -2, y: -15}
+        - {x: 6, y: -15}
+        - {x: 6, y: -2}
+        - {x: 5, y: 0}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: ebd720c75b93fad40800000000000000
+      internalID: 5597756313477217726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_run_03
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 205
+        width: 38
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84331acda7ccac860800000000000000
+      internalID: 7551072553299686216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_run_02
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 205
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf13417fd3dfcb500800000000000000
+      internalID: 413483708391371259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_hurt_00
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 154
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 7.5, y: -18}
+        - {x: 3.5, y: -10}
+        - {x: 4.5, y: -6}
+        - {x: 5.5, y: -3}
+        - {x: 6.5, y: -1}
+        - {x: 4.5, y: 0}
+        - {x: 1.5, y: 1}
+        - {x: 1.5, y: 6}
+        - {x: -1.5, y: 11}
+        - {x: -1.5, y: 16}
+        - {x: -3.5, y: 18}
+        - {x: -10.5, y: 18}
+        - {x: -13.5, y: 14}
+        - {x: -13.5, y: 10}
+        - {x: -15.5, y: 6}
+        - {x: -15.5, y: -7}
+        - {x: -12.5, y: -13}
+        - {x: -13.5, y: -18}
+        - {x: -6.5, y: -18}
+        - {x: -5.5, y: -17}
+        - {x: -3.5, y: -13}
+        - {x: -0.5, y: -18}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 1da54aebaf47786e0800000000000000
+      internalID: -1835369702841099567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_attack_06
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 154
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 2, y: -16}
+        - {x: 2, y: -14}
+        - {x: 1, y: -10}
+        - {x: 2, y: 3}
+        - {x: -7, y: 11}
+        - {x: -13, y: 7}
+        - {x: -14, y: -7}
+        - {x: -22, y: -14}
+        - {x: -22, y: -21}
+        - {x: -15, y: -21}
+        - {x: -11, y: -19}
+        - {x: -10, y: -21}
+        - {x: -1, y: -21}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 497c906c9dd58af30800000000000000
+      internalID: 4587019410388666260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_attack_04
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 154
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4.5, y: -11.5}
+        - {x: 3.5, y: 4.5}
+        - {x: -2.5, y: 7.5}
+        - {x: -12.5, y: 1.5}
+        - {x: -14.5, y: -6.5}
+        - {x: -20.5, y: -12.5}
+        - {x: -20.5, y: -19.5}
+        - {x: -11.5, y: -19.5}
+        - {x: -6.5, y: -16.5}
+        - {x: -6.5, y: -19.5}
+        - {x: 2.5, y: -19.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: f4027d9582d3221f0800000000000000
+      internalID: -1071226517845499825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_attack_03
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 154
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9afeab75ab08d80800000000000000
+      internalID: -8250389631381558822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_attack_02
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 154
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5316580bd23ad71e0800000000000000
+      internalID: -2198421626456547019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_attack_05
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 154
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -0.5, y: -20}
+        - {x: -0.5, y: -18}
+        - {x: 2.5, y: 6}
+        - {x: -7.5, y: 8}
+        - {x: -12.5, y: 4}
+        - {x: -14.5, y: 1}
+        - {x: -16.5, y: -7}
+        - {x: -22.5, y: -13}
+        - {x: -22.5, y: -20}
+        - {x: -14.5, y: -20}
+        - {x: -11.5, y: -17}
+        - {x: -8.5, y: -16}
+        - {x: -8.5, y: -20}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 154c9fef98d2c49e0800000000000000
+      internalID: -1635882493930781615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_03
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 103
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4, y: -9}
+        - {x: 6, y: 1}
+        - {x: 3, y: 2}
+        - {x: 4, y: 8}
+        - {x: -4, y: 16}
+        - {x: -7, y: 17}
+        - {x: -16, y: 17}
+        - {x: -17, y: 16}
+        - {x: -17, y: -6}
+        - {x: -16, y: -6}
+        - {x: -14, y: -8}
+        - {x: -16, y: -15}
+        - {x: -16, y: -17}
+        - {x: -8, y: -17}
+        - {x: -6, y: -14}
+        - {x: -3, y: -17}
+        - {x: 4, y: -17}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 47009c70faeb83090800000000000000
+      internalID: -8054478274592964492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_02
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 103
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -16}
+        - {x: 2.5, y: 7}
+        - {x: 0.5, y: 14}
+        - {x: -3.5, y: 17}
+        - {x: -15.5, y: 17}
+        - {x: -15.5, y: 10}
+        - {x: -10.5, y: 10}
+        - {x: -15.5, y: 4}
+        - {x: -15.5, y: -8}
+        - {x: -13.5, y: -12}
+        - {x: -14.5, y: -17}
+        - {x: -6.5, y: -17}
+        - {x: -3.5, y: -10}
+        - {x: -1.5, y: -17}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: a5148e1bb25b047c0800000000000000
+      internalID: -4089069262379400870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_01
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 102
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -18}
+        - {x: 7.5, y: -17}
+        - {x: 4.5, y: 1}
+        - {x: 2.5, y: 3}
+        - {x: 1.5, y: 12}
+        - {x: -5.5, y: 18}
+        - {x: -12.5, y: 18}
+        - {x: -14.5, y: 16}
+        - {x: -14.5, y: 13}
+        - {x: -10.5, y: 9}
+        - {x: -15.5, y: 3}
+        - {x: -15.5, y: -6}
+        - {x: -13.5, y: -8}
+        - {x: -10.5, y: -8}
+        - {x: -12.5, y: -15}
+        - {x: -12.5, y: -17}
+        - {x: -11.5, y: -18}
+        - {x: -5.5, y: -18}
+        - {x: -3.5, y: -17}
+        - {x: -2.5, y: -8}
+        - {x: 0.5, y: -17}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 278c144e818cd33f0800000000000000
+      internalID: -919358739679426446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_00
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 103
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -18}
+        - {x: 0.5, y: 2}
+        - {x: 0.5, y: 6}
+        - {x: -2.5, y: 11}
+        - {x: -2.5, y: 16}
+        - {x: -4.5, y: 18}
+        - {x: -11.5, y: 18}
+        - {x: -14.5, y: 14}
+        - {x: -14.5, y: 10}
+        - {x: -16.5, y: 6}
+        - {x: -16.5, y: -7}
+        - {x: -13.5, y: -13}
+        - {x: -14.5, y: -18}
+        - {x: -7.5, y: -18}
+        - {x: -6.5, y: -17}
+        - {x: -4.5, y: -13}
+        - {x: -1.5, y: -18}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 22040954d89d0cef0800000000000000
+      internalID: -89832791766712286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_hurt_02
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 103
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e54f757e08896fe0800000000000000
+      internalID: -1195274630407961116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_hurt_01
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 103
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03275bb977bd99ab0800000000000000
+      internalID: -5000724604458274256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_jump_00
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 52
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -16.5}
+        - {x: 1.5, y: -14.5}
+        - {x: -0.5, y: -5.5}
+        - {x: -0.5, y: -1.5}
+        - {x: -0.5, y: 7.5}
+        - {x: -4.5, y: 14.5}
+        - {x: -8.5, y: 16.5}
+        - {x: -15.5, y: 16.5}
+        - {x: -17.5, y: 14.5}
+        - {x: -17.5, y: -16.5}
+        - {x: -12.5, y: -16.5}
+        - {x: -11.5, y: -15.5}
+        - {x: -8.5, y: -8.5}
+        - {x: -6.5, y: -16.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: c6aac9dd98ff335a0800000000000000
+      internalID: -6542604866045564308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_jump_01
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 52
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1.5, y: -16}
+        - {x: 1.5, y: -14}
+        - {x: -0.5, y: -7}
+        - {x: -0.5, y: -3}
+        - {x: -0.5, y: 6}
+        - {x: -5.5, y: 14}
+        - {x: -10.5, y: 16}
+        - {x: -17.5, y: 16}
+        - {x: -17.5, y: -2}
+        - {x: -16.5, y: -3}
+        - {x: -17.5, y: -8}
+        - {x: -17.5, y: -16}
+        - {x: -12.5, y: -16}
+        - {x: -11.5, y: -15}
+        - {x: -7.5, y: -12}
+        - {x: -6.5, y: -16}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 28c143647c79842a0800000000000000
+      internalID: -6752980759109952382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_07
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 52
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14.5, y: -13}
+        - {x: -19.5, y: -14}
+        - {x: -19.5, y: -20}
+        - {x: 5.5, y: -20}
+        - {x: 5.5, y: -17}
+        - {x: 2.5, y: -13}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 013f98a4713209910800000000000000
+      internalID: 1842010830536307472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_06
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 52
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -14, y: -12.5}
+        - {x: -20, y: -16.5}
+        - {x: -20, y: -21.5}
+        - {x: 6, y: -21.5}
+        - {x: 6, y: -17.5}
+        - {x: -2, y: -12.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 00725e108673fd630800000000000000
+      internalID: 3953939917702506240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_fall_01
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 3.5}
+        - {x: -3, y: 14.5}
+        - {x: -7, y: 18.5}
+        - {x: -14, y: 18.5}
+        - {x: -16, y: 14.5}
+        - {x: -16, y: 0.5}
+        - {x: -15, y: -0.5}
+        - {x: -13, y: -0.5}
+        - {x: -11, y: 0.5}
+        - {x: -14, y: -1.5}
+        - {x: -14, y: -13.5}
+        - {x: -12, y: -16.5}
+        - {x: -4, y: -15.5}
+        - {x: 0, y: -18.5}
+        - {x: 8, y: -18.5}
+        - {x: 8, y: -16.5}
+        - {x: 4, y: -5.5}
+        - {x: 0, y: 1.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: d400856907c5741c0800000000000000
+      internalID: -4519542062414561203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_fall_00
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -4, y: 14}
+        - {x: -6, y: 19}
+        - {x: -16, y: 19}
+        - {x: -16, y: 0}
+        - {x: -15, y: -1}
+        - {x: -13, y: -1}
+        - {x: -11, y: 0}
+        - {x: -14, y: -2}
+        - {x: -14, y: -14}
+        - {x: -11, y: -15}
+        - {x: -7, y: -16}
+        - {x: -4, y: -14}
+        - {x: 0, y: -19}
+        - {x: 8, y: -19}
+        - {x: 8, y: -17}
+        - {x: 4, y: -6}
+        - {x: 6, y: 3}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: eb4f5dc07e0b73390800000000000000
+      internalID: -7838602120015776578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_jump_03
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 1, y: -6}
+        - {x: 5, y: 1}
+        - {x: 0, y: 14}
+        - {x: -10, y: 14}
+        - {x: -17, y: 8}
+        - {x: -17, y: -1}
+        - {x: -16, y: -4}
+        - {x: -17, y: -6}
+        - {x: -17, y: -14}
+        - {x: -12, y: -14}
+        - {x: -7, y: -11}
+        - {x: -3, y: -11}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 6ef512f75d4146280800000000000000
+      internalID: -9051086443914371098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_jump_02
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1
+        width: 35
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 4.5, y: -6}
+        - {x: 5.5, y: 5}
+        - {x: -0.5, y: 14}
+        - {x: -13.5, y: 14}
+        - {x: -14.5, y: 13}
+        - {x: -17.5, y: 8}
+        - {x: -17.5, y: 0}
+        - {x: -16.5, y: -4}
+        - {x: -17.5, y: -6}
+        - {x: -17.5, y: -14}
+        - {x: -12.5, y: -14}
+        - {x: -3.5, y: -11}
+        - {x: 0.5, y: -6}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 441478e390c59d910800000000000000
+      internalID: 1862621115667923268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_04
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 51
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -18.5}
+        - {x: 5.5, y: -2.5}
+        - {x: -3.5, y: 12.5}
+        - {x: -11.5, y: 10.5}
+        - {x: -9.5, y: 9.5}
+        - {x: -15.5, y: 6.5}
+        - {x: -18.5, y: 6.5}
+        - {x: -18.5, y: -9.5}
+        - {x: -14.5, y: -12.5}
+        - {x: -14.5, y: -18.5}
+        - {x: -13.5, y: -19.5}
+        - {x: -5.5, y: -19.5}
+        - {x: -1.5, y: -17.5}
+        - {x: -0.5, y: -19.5}
+        - {x: 4.5, y: -19.5}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 2ee7f4e1d959efc10800000000000000
+      internalID: 2089271779197419234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant_die_05
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 51
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 5.5, y: -20}
+        - {x: 5.5, y: -15}
+        - {x: 3.5, y: -10}
+        - {x: 0.5, y: -7}
+        - {x: -17.5, y: -7}
+        - {x: -20.5, y: -12}
+        - {x: -20.5, y: -20}
+        - {x: -17.5, y: -21}
+        - {x: -8.5, y: -21}
+        - {x: -5.5, y: -19}
+        - {x: -4.5, y: -21}
+        - {x: 2.5, y: -21}
+      tessellationDetail: 0.5
+      bones: []
+      spriteID: 4f6157c94230dc400800000000000000
+      internalID: 345936202156021492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
