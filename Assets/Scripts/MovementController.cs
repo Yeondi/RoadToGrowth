@@ -19,7 +19,7 @@ public class MovementController : MonoBehaviour
     bool isJumping;
     bool isFalling;
 
-    enum CharacterStates
+    public enum CharacterStates
     {
         walk = 1,
         attack,
@@ -135,6 +135,7 @@ public class MovementController : MonoBehaviour
         if (rb2D.velocity.y < 0)
         {
             isFalling = true;
+            //animator.SetBool("isFalling", true);
             animator.SetInteger(animationState, (int)CharacterStates.fall);
         }
     }
