@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 506262295818015890}
   - component: {fileID: 1261684921}
   - component: {fileID: -3866074326204852801}
+  - component: {fileID: -2913803219141292378}
   m_Layer: 12
   m_Name: TEnemyObject
   m_TagString: Enemy
@@ -204,3 +205,15 @@ MonoBehaviour:
   currentSpeed: 0
   directionChangeInterval: 3
   followPlayer: 1
+--- !u!114 &-2913803219141292378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5627989347389574115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a46b8aaa3b3ba647bdfda9587a6873d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
