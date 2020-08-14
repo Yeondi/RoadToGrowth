@@ -14,8 +14,6 @@ GameObject:
   - component: {fileID: 5627989347389574124}
   - component: {fileID: 5627989347389574127}
   - component: {fileID: 506262295818015890}
-  - component: {fileID: 1261684921}
-  - component: {fileID: -3866074326204852801}
   - component: {fileID: -2913803219141292378}
   m_Layer: 12
   m_Name: TEnemyObject
@@ -99,7 +97,7 @@ Animator:
   m_GameObject: {fileID: 5627989347389574115}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5050b7b09f8d59149a9f77c65983b822, type: 2}
+  m_Controller: {fileID: 9100000, guid: c491936c265fbf14088c432c92b65e94, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -147,8 +145,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 0.001
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
@@ -167,44 +165,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc8877df283f34348b8d3a6b9cfe4871, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealthPoints: 2
-  startingHealthPoints: 2
-  animator: {fileID: 0}
+  MaxHealthPoints: 10
+  startingHealthPoints: 10
   animationState: AnimationeState
-  damageStrength: 1
---- !u!58 &1261684921
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5627989347389574115}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 2.5
---- !u!114 &-3866074326204852801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5627989347389574115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dace216729f0202418e541fd2cc09981, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pursuitSpeed: 1.4
-  wanderSpeed: 0.8
-  currentSpeed: 0
-  directionChangeInterval: 3
-  followPlayer: 1
+  damageStrength: 10
+  attackCoolDown: 4
+  attackDelay: 0
+  movementSpeed: 4
+  player: {fileID: 0}
+  backToPosition: {x: 0, y: 0}
+  drop: {fileID: 3770134059369426982, guid: d428c5db7c3bd254e89c365123ff284b, type: 3}
 --- !u!114 &-2913803219141292378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,3 +187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a46b8aaa3b3ba647bdfda9587a6873d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ammoPrefab: {fileID: 2539690305087882215, guid: 5581aea9287ddc34ebd647539537009a,
+    type: 3}
+  poolSize: 2
+  weaponVelocity: 2
+  onFire: 0

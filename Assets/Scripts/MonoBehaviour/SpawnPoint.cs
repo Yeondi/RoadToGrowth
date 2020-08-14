@@ -19,7 +19,9 @@ public class SpawnPoint : MonoBehaviour
     {
         if(prefabToSpawn != null)
         {
-            return Instantiate(prefabToSpawn, transform.position, Quaternion.identity); //인스턴스화 :: Quaternion.identity == 회전이 없음
+            GameObject spawn = Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
+            spawn.name = "Shade";
+            return spawn; //인스턴스화 :: Quaternion.identity == 회전이 없음
         }
         return null;
     }

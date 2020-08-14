@@ -44,7 +44,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.17, y: -0.47}
+  m_Offset: {x: -0.17000002, y: -0.23795551}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -55,7 +55,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.59143114, y: 0.21312642}
+  m_Size: {x: 0.59143114, y: 1.0897397}
   m_EdgeRadius: 0
 --- !u!1 &1277455518
 GameObject:
@@ -113,9 +113,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.6566825, y: -0.08014774}
-      - {x: 0.5442548, y: 0.37053776}
-      - {x: 0.29969263, y: 0.6629596}
+    - - {x: 1.13796, y: -0.040041238}
+      - {x: 0.9854264, y: 0.59971774}
+      - {x: 0.5918968, y: 0.92651653}
       - {x: 0.068612576, y: 0.7778344}
       - {x: 0.010246754, y: 0.7489729}
       - {x: 0.25750923, y: 0.4409933}
@@ -125,7 +125,7 @@ PolygonCollider2D:
       - {x: -0.32916784, y: -0.3965876}
       - {x: -0.6470604, y: -0.6986127}
       - {x: 0.09915447, y: -0.7617259}
-      - {x: 0.5724163, y: -0.52725244}
+      - {x: 0.9505627, y: -0.71632576}
 --- !u!1 &4935022220875898940
 GameObject:
   m_ObjectHideFlags: 0
@@ -203,13 +203,13 @@ SpriteRenderer:
   m_SortingLayerID: 1440796615
   m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: -8845395949455540152, guid: d6f534a6122b5084b81976f3b97ff7e1,
+  m_Sprite: {fileID: 4846366318012612624, guid: d6f534a6122b5084b81976f3b97ff7e1,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.0625, y: 0.9375}
+  m_Size: {x: 1.78125, y: 1.59375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -247,18 +247,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.20978665, y: 0.014759421}
+  m_Offset: {x: -0.13134494, y: -0.23000002}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.90625, y: 1.15625}
-    newSize: {x: 1.0625, y: 0.9375}
+    oldSize: {x: 1.78125, y: 1.59375}
+    newSize: {x: 1.78125, y: 1.59375}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.6352434, y: 1.0056732}
+  m_Size: {x: 0.26767153, y: 1.0056732}
   m_EdgeRadius: 0
 --- !u!50 &4935022220875898928
 Rigidbody2D:
@@ -290,11 +290,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4935022220875898940}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ab929322eeb19e46ba48eaea0ade630, type: 3}
+  m_Script: {fileID: 11500000, guid: b091949e63e441b4bb8151a24cd0e81c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 5
   jumpSpeed: 5
+  onAttack: 0
+  onLadder: 0
+  climbSpeed: 4
+  nAttackCount: 1
 --- !u!114 &2051255680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,10 +311,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3793c5af8a0ad3042ba13c4d45e4c2ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxHealthPoints: 10
-  startingHealthPoints: 6
-  animator: {fileID: 0}
+  MaxHealthPoints: 100000
+  startingHealthPoints: 100000
+  damageStrength: 40
+  defence: 0
   animationState: AnimationeState
+  damageStrength: 40
+  defence: 5
   healthPoints: {fileID: 11400000, guid: 6287fa7119c1f6f4a976674949ed576d, type: 2}
   healthBarPrefab: {fileID: 1361128667, guid: b997d910c1945f04b8d67c010c882949, type: 3}
   inventoryPrefab: {fileID: -1145357259832705473, guid: 9152155e6b85a8343914aeb394e186b2,

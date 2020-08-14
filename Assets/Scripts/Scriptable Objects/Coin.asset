@@ -15,5 +15,7 @@ MonoBehaviour:
   objectName: coin
   sprite: {fileID: 3906112111664580409, guid: 602db1036992d2340890f10fe776c80f, type: 3}
   quantity: 0
+  price: -10
   Stackable: 1
   itemType: 0
+  itemTypeSize: 9999

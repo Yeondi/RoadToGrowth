@@ -1,0 +1,1280 @@
+fileFormatVersion: 2
+guid: b749469d9fea00641856a44bc1672e33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5599688855728306589
+    second: MrSpot_0
+  - first:
+      213: -8083504570259606755
+    second: MrSpot_1
+  - first:
+      213: 1929210342310362015
+    second: MrSpot_2
+  - first:
+      213: 5407315226460328727
+    second: MrSpot_3
+  - first:
+      213: 2645422959745803545
+    second: MrSpot_4
+  - first:
+      213: -5325493745264658238
+    second: MrSpot_5
+  - first:
+      213: 332702767839842969
+    second: MrSpot_6
+  - first:
+      213: -7831287019070125970
+    second: MrSpot_7
+  - first:
+      213: -2106525379429189142
+    second: MrSpot_8
+  - first:
+      213: 6403271574744276476
+    second: MrSpot_9
+  - first:
+      213: -499235751262066474
+    second: MrSpot_10
+  - first:
+      213: -7360425328709869611
+    second: MrSpot_11
+  - first:
+      213: 4250704771917445145
+    second: MrSpot_12
+  - first:
+      213: -4639713540027313311
+    second: MrSpot_13
+  - first:
+      213: 4017997329937129767
+    second: MrSpot_14
+  - first:
+      213: 8646879237506985775
+    second: MrSpot_15
+  - first:
+      213: -7825338479432761368
+    second: MrSpot_16
+  - first:
+      213: 665588640129667176
+    second: MrSpot_17
+  - first:
+      213: -7517438856190706156
+    second: MrSpot_18
+  - first:
+      213: -1145984157331067093
+    second: MrSpot_19
+  - first:
+      213: 7895904480103494564
+    second: MrSpot_20
+  - first:
+      213: 9192272033592687136
+    second: MrSpot_21
+  - first:
+      213: 5116314754347386469
+    second: MrSpot_22
+  - first:
+      213: -4361285927173683056
+    second: MrSpot_23
+  - first:
+      213: 399693767181911909
+    second: MrSpot_24
+  - first:
+      213: 5788117804363832665
+    second: MrSpot_25
+  - first:
+      213: -4406786729243869651
+    second: MrSpot_26
+  - first:
+      213: -3287391692872257366
+    second: MrSpot_27
+  - first:
+      213: -5671599043591725194
+    second: MrSpot_28
+  - first:
+      213: -2988280924613873374
+    second: MrSpot_29
+  - first:
+      213: -6384646164229896349
+    second: MrSpot_30
+  - first:
+      213: -755555907196707741
+    second: MrSpot_31
+  - first:
+      213: 2275494583146946199
+    second: MrSpot_32
+  - first:
+      213: -5487487801114671536
+    second: MrSpot_33
+  - first:
+      213: -1064254649616715176
+    second: MrSpot_34
+  - first:
+      213: 8261798029884683930
+    second: MrSpot_35
+  - first:
+      213: -4886865535567848291
+    second: MrSpot_36
+  - first:
+      213: -8023121459096853122
+    second: MrSpot_37
+  - first:
+      213: 6927861066336748343
+    second: MrSpot_38
+  - first:
+      213: 3949030302817672872
+    second: MrSpot_39
+  - first:
+      213: -956045693289177299
+    second: MrSpot_40
+  - first:
+      213: 7039661948307500682
+    second: MrSpot_41
+  - first:
+      213: -31744102976222229
+    second: MrSpot_42
+  - first:
+      213: -3290629013253083202
+    second: MrSpot_43
+  - first:
+      213: -6921197413350404644
+    second: MrSpot_44
+  - first:
+      213: -8461609475122502906
+    second: MrSpot_45
+  - first:
+      213: 8621346477709887019
+    second: MrSpot_46
+  - first:
+      213: -114513678556858511
+    second: MrSpot_47
+  - first:
+      213: -5206616744202911751
+    second: MrSpot_48
+  - first:
+      213: 6968611785882665505
+    second: MrSpot_49
+  - first:
+      213: -6692753105931413301
+    second: MrSpot_50
+  - first:
+      213: 2778028893921172550
+    second: MrSpot_51
+  - first:
+      213: 3859753568922569122
+    second: MrSpot_52
+  - first:
+      213: -6741132101933230366
+    second: MrSpot_53
+  - first:
+      213: 8092456084657744255
+    second: MrSpot_54
+  - first:
+      213: -2895012775822580166
+    second: MrSpot_55
+  - first:
+      213: 7208367533691707063
+    second: MrSpot_56
+  - first:
+      213: -7196351607554984243
+    second: MrSpot_57
+  - first:
+      213: -1365517110441454199
+    second: MrSpot_58
+  - first:
+      213: 476967891171150521
+    second: MrSpot_59
+  - first:
+      213: -4976821033536659062
+    second: MrSpot_60
+  - first:
+      213: -4374023231387288051
+    second: MrSpot_61
+  - first:
+      213: 2930996977457148067
+    second: MrSpot_62
+  - first:
+      213: 9121195600655060270
+    second: MrSpot_63
+  - first:
+      213: -6243315599458877651
+    second: MrSpot_64
+  - first:
+      213: -8745364310235106349
+    second: MrSpot_65
+  - first:
+      213: -1676972165148570458
+    second: MrSpot_66
+  - first:
+      213: -7367387860306639613
+    second: MrSpot_67
+  - first:
+      213: -886704246537474140
+    second: MrSpot_68
+  - first:
+      213: -2101591981990116376
+    second: MrSpot_69
+  - first:
+      213: 7450411528130985723
+    second: MrSpot_70
+  - first:
+      213: 8211490601239870070
+    second: MrSpot_71
+  - first:
+      213: -272702245570118448
+    second: MrSpot_72
+  - first:
+      213: 3624939991329262550
+    second: MrSpot_73
+  - first:
+      213: -7253721546210112246
+    second: MrSpot_74
+  - first:
+      213: -1562461579078782101
+    second: MrSpot_75
+  - first:
+      213: -8923890013626246313
+    second: MrSpot_76
+  - first:
+      213: 9044710704385197431
+    second: MrSpot_77
+  - first:
+      213: 2089455181674901088
+    second: MrSpot_78
+  - first:
+      213: -8556100569147760388
+    second: MrSpot_79
+  - first:
+      213: 4874746846129953796
+    second: MrSpot_80
+  - first:
+      213: -3103127162855573620
+    second: MrSpot_81
+  - first:
+      213: -2204109310648099042
+    second: MrSpot_82
+  - first:
+      213: 6169913431197223942
+    second: MrSpot_83
+  - first:
+      213: 5280518558654740952
+    second: MrSpot_84
+  - first:
+      213: 5740459608253537322
+    second: MrSpot_85
+  - first:
+      213: 8233431064563374244
+    second: MrSpot_86
+  - first:
+      213: 258733945459880624
+    second: MrSpot_87
+  - first:
+      213: 2817848370450942289
+    second: MrSpot_88
+  - first:
+      213: -397242277169920615
+    second: MrSpot_89
+  - first:
+      213: 4803791498736888585
+    second: MrSpot_90
+  - first:
+      213: 4541475863728119804
+    second: MrSpot_91
+  - first:
+      213: 8142288583490030318
+    second: MrSpot_92
+  - first:
+      213: -8951286101390051727
+    second: MrSpot_93
+  - first:
+      213: -8083850777521854108
+    second: MrSpot_94
+  - first:
+      213: -4524400480301941810
+    second: MrSpot_95
+  - first:
+      213: -1249021411965192182
+    second: MrSpot_96
+  - first:
+      213: -8563140179872208963
+    second: MrSpot_97
+  - first:
+      213: 8888590718101013976
+    second: MrSpot_98
+  - first:
+      213: -2891629062426420032
+    second: MrSpot_99
+  - first:
+      213: 5029449828794813971
+    second: MrSpot_100
+  - first:
+      213: -6425680600806901742
+    second: MrSpot_101
+  - first:
+      213: -6684913562699899779
+    second: MrSpot_102
+  - first:
+      213: -108426978648235687
+    second: MrSpot_103
+  - first:
+      213: 3047085743226181510
+    second: MrSpot_104
+  - first:
+      213: 8577095127082832911
+    second: MrSpot_105
+  - first:
+      213: 8532871934957661209
+    second: MrSpot_106
+  - first:
+      213: 6901421940149798503
+    second: MrSpot_107
+  - first:
+      213: 478497135802720197
+    second: MrSpot_108
+  - first:
+      213: -2113196767811103749
+    second: MrSpot_109
+  - first:
+      213: -7112277129743854613
+    second: MrSpot_110
+  - first:
+      213: -5763496794325877596
+    second: MrSpot_111
+  - first:
+      213: -2881025198932062298
+    second: MrSpot_112
+  - first:
+      213: 2041304824737042978
+    second: MrSpot_113
+  - first:
+      213: -8343706142026354911
+    second: MrSpot_114
+  - first:
+      213: 4630186403678368080
+    second: MrSpot_115
+  - first:
+      213: 1969178757076935501
+    second: MrSpot_116
+  - first:
+      213: -8473442152685139500
+    second: MrSpot_117
+  - first:
+      213: 7906808050764450776
+    second: MrSpot_118
+  - first:
+      213: 4600466368610604432
+    second: MrSpot_119
+  - first:
+      213: -5142522154089674467
+    second: MrSpot_120
+  - first:
+      213: 5269911795461940180
+    second: MrSpot_121
+  - first:
+      213: -7880066871381137348
+    second: MrSpot_122
+  - first:
+      213: -5878820935916588828
+    second: MrSpot_123
+  - first:
+      213: 3482213802795474508
+    second: MrSpot_124
+  - first:
+      213: 2576104237775860692
+    second: MrSpot_125
+  - first:
+      213: -3131073937313859154
+    second: MrSpot_126
+  - first:
+      213: -8127618714039837190
+    second: MrSpot_127
+  - first:
+      213: 5251352289678513798
+    second: MrSpot_128
+  - first:
+      213: -894879411009038527
+    second: MrSpot_129
+  - first:
+      213: -1088554722196225725
+    second: MrSpot_130
+  - first:
+      213: 7754252400307329415
+    second: MrSpot_131
+  - first:
+      213: 4554762699700360104
+    second: MrSpot_132
+  - first:
+      213: 1676516357348755609
+    second: MrSpot_133
+  - first:
+      213: 4397427087950514281
+    second: MrSpot_134
+  - first:
+      213: -4098429560453348131
+    second: MrSpot_135
+  - first:
+      213: 2234898210918151805
+    second: MrSpot_136
+  - first:
+      213: -5840144474472142379
+    second: MrSpot_137
+  - first:
+      213: -5074590753202833271
+    second: MrSpot_138
+  - first:
+      213: -1017459250993127060
+    second: MrSpot_139
+  - first:
+      213: 821097493456568918
+    second: MrSpot_140
+  - first:
+      213: -7718890776300764578
+    second: MrSpot_141
+  - first:
+      213: 3108862712982373787
+    second: MrSpot_142
+  - first:
+      213: -3669220045747496522
+    second: MrSpot_143
+  - first:
+      213: -5606274572827483318
+    second: MrSpot_144
+  - first:
+      213: -2403696193177753853
+    second: MrSpot_145
+  - first:
+      213: -1237283684799453022
+    second: MrSpot_146
+  - first:
+      213: 8910405015371374613
+    second: MrSpot_147
+  - first:
+      213: 5612282819253561693
+    second: MrSpot_148
+  - first:
+      213: -1262510991237716906
+    second: MrSpot_149
+  - first:
+      213: 1342523234308191032
+    second: MrSpot_150
+  - first:
+      213: -193893954941149990
+    second: MrSpot_151
+  - first:
+      213: -5526998249457573074
+    second: MrSpot_152
+  - first:
+      213: -1017315748082494222
+    second: MrSpot_153
+  - first:
+      213: -1451360865229549075
+    second: MrSpot_154
+  - first:
+      213: 3373054959848950928
+    second: MrSpot_155
+  - first:
+      213: -2808365209187999131
+    second: MrSpot_156
+  - first:
+      213: 7905816630645943010
+    second: MrSpot_157
+  - first:
+      213: 6551250934135578932
+    second: MrSpot_158
+  - first:
+      213: -1133278440599611709
+    second: MrSpot_159
+  - first:
+      213: 4591418428584561215
+    second: MrSpot_160
+  - first:
+      213: -8693377508469501540
+    second: MrSpot_161
+  - first:
+      213: 8604716626358615284
+    second: MrSpot_162
+  - first:
+      213: -41517904693517705
+    second: MrSpot_163
+  - first:
+      213: 1464067339521831918
+    second: MrSpot_164
+  - first:
+      213: 4025664884652843373
+    second: MrSpot_165
+  - first:
+      213: -3503094759095981174
+    second: MrSpot_166
+  - first:
+      213: 7178812770604995718
+    second: MrSpot_167
+  - first:
+      213: 5872221157667226660
+    second: MrSpot_168
+  - first:
+      213: -4881470694333807976
+    second: MrSpot_169
+  - first:
+      213: -6147681352921159989
+    second: MrSpot_170
+  - first:
+      213: 1303827181623757438
+    second: MrSpot_171
+  - first:
+      213: 5309163267880260984
+    second: MrSpot_172
+  - first:
+      213: -4257020460262191252
+    second: MrSpot_173
+  - first:
+      213: -3627166388146565410
+    second: MrSpot_174
+  - first:
+      213: -4210133016004405718
+    second: MrSpot_175
+  - first:
+      213: 4011929102479227470
+    second: MrSpot_176
+  - first:
+      213: -6681845436557090229
+    second: MrSpot_177
+  - first:
+      213: 594351962789679058
+    second: MrSpot_178
+  - first:
+      213: 1829273922885438223
+    second: MrSpot_179
+  - first:
+      213: -4844033332907735506
+    second: MrSpot_180
+  - first:
+      213: 5404939968935594595
+    second: MrSpot_181
+  - first:
+      213: -1937475002426921281
+    second: MrSpot_182
+  - first:
+      213: 955920805403283949
+    second: MrSpot_183
+  - first:
+      213: -659533097317593510
+    second: MrSpot_184
+  - first:
+      213: -7080362535551195209
+    second: MrSpot_185
+  - first:
+      213: -4362183240714001873
+    second: MrSpot_186
+  - first:
+      213: -8151618534164542351
+    second: MrSpot_187
+  - first:
+      213: -5637661176080554831
+    second: MrSpot_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MrSpot_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 883
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d99366a885716bd40800000000000000
+      internalID: 5599688855728306589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 883
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13fd6deb6f91df80800000000000000
+      internalID: -8083504570259606755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 883
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b3b6eb59ee5ca10800000000000000
+      internalID: 1929210342310362015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_3
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 883
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7139abd9c84aa0b40800000000000000
+      internalID: 5407315226460328727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_4
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 883
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 915af447a2e66b420800000000000000
+      internalID: 2645422959745803545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 711
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a967c49098dc7a270800000000000000
+      internalID: 8261798029884683930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_36
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 711
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9c1167efad5e2cb0800000000000000
+      internalID: -4886865535567848291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_37
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 711
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75e7b09a8528a090800000000000000
+      internalID: -8023121459096853122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_38
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 711
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733c2483fe4b42060800000000000000
+      internalID: 6927861066336748343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_39
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 711
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae53b63326cdc630800000000000000
+      internalID: 3949030302817672872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_71
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 541
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a7c5b023315f170800000000000000
+      internalID: 8211490601239870070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_72
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 541
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc7753a0ca273cf0800000000000000
+      internalID: -272702245570118448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_73
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 541
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbc94367bf5e4230800000000000000
+      internalID: 3624939991329262550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_74
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 541
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d8c828faa955b90800000000000000
+      internalID: -7253721546210112246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_75
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 541
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6330dbd875015ae0800000000000000
+      internalID: -1562461579078782101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_76
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 540
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bd62b3059f72480800000000000000
+      internalID: -8923890013626246313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_119
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 378
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0959a26b9c328df30800000000000000
+      internalID: 4600466368610604432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_120
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 378
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1988ebd85712a8b0800000000000000
+      internalID: -5142522154089674467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_121
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 378
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d366265bdc722940800000000000000
+      internalID: 5269911795461940180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_122
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 378
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c38e00d4ee064a290800000000000000
+      internalID: -7880066871381137348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_123
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 378
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0ff80918b3a6ea0800000000000000
+      internalID: -5878820935916588828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_144
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 206
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a432055baf28232b0800000000000000
+      internalID: -5606274572827483318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_145
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 206
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3076ea13c0b54aed0800000000000000
+      internalID: -2403696193177753853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_146
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 206
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a864294b0944dee0800000000000000
+      internalID: -1237283684799453022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_147
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 206
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510e112f62e18ab70800000000000000
+      internalID: 8910405015371374613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_148
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 204
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d59e2ac2d75d2ed40800000000000000
+      internalID: 5612282819253561693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_170
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 36
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc667de916c0faaa0800000000000000
+      internalID: -6147681352921159989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_171
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 38
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ace29e9ef181210800000000000000
+      internalID: 1303827181623757438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MrSpot_172
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 38
+        width: 149
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8751e8cecdfeda940800000000000000
+      internalID: 5309163267880260984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

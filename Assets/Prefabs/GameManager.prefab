@@ -45,3 +45,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraManager: {fileID: 0}
   playerSpawnPoint: {fileID: 0}
+  shopManager: {fileID: 4842657787580645104, guid: 2a0e77661467a1240a14284bf1a3e8f5,
+    type: 3}

@@ -1,0 +1,1085 @@
+fileFormatVersion: 2
+guid: d6f534a6122b5084b81976f3b97ff7e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7400489850006909305
+    second: revenant_run_01
+  - first:
+      213: 4571795707204258534
+    second: revenant_run_00
+  - first:
+      213: 1713624150483919207
+    second: revenant_idle_03
+  - first:
+      213: -637908045420609780
+    second: revenant_idle_02
+  - first:
+      213: 5834645998963250975
+    second: revenant_idle_01
+  - first:
+      213: -8845395949455540152
+    second: revenant_idle_00
+  - first:
+      213: 7022845493790658129
+    second: revenant_attack_01
+  - first:
+      213: -97670513493510132
+    second: revenant_attack_00
+  - first:
+      213: -1875969271984112904
+    second: revenant_run_05
+  - first:
+      213: 5597756313477217726
+    second: revenant_run_04
+  - first:
+      213: 7551072553299686216
+    second: revenant_run_03
+  - first:
+      213: 413483708391371259
+    second: revenant_run_02
+  - first:
+      213: -1835369702841099567
+    second: revenant_hurt_00
+  - first:
+      213: 4587019410388666260
+    second: revenant_attack_06
+  - first:
+      213: 2089271779197419234
+    second: revenant_die_04
+  - first:
+      213: 345936202156021492
+    second: revenant_die_05
+  - first:
+      213: 1181190420527858341
+    second: revenant-attack-03
+  - first:
+      213: -1071226517845499825
+    second: revenant_attack_04
+  - first:
+      213: 133297258237989894
+    second: revenant-die-03
+  - first:
+      213: -8670828678088725360
+    second: revenant-die-02
+  - first:
+      213: -8250389631381558822
+    second: revenant_attack_03
+  - first:
+      213: -2198421626456547019
+    second: revenant_attack_02
+  - first:
+      213: -6693479821844270097
+    second: revenant-hurt-02
+  - first:
+      213: -1635882493930781615
+    second: revenant_attack_05
+  - first:
+      213: 7712698050695139196
+    second: revenant-jump-01
+  - first:
+      213: 3777617250226272088
+    second: revenant-jump-00
+  - first:
+      213: -6548218892973427127
+    second: revenant-die-07
+  - first:
+      213: 6160606673770123900
+    second: revenant-die-06
+  - first:
+      213: -8054478274592964492
+    second: revenant_die_03
+  - first:
+      213: -4089069262379400870
+    second: revenant_die_02
+  - first:
+      213: -919358739679426446
+    second: revenant_die_01
+  - first:
+      213: -89832791766712286
+    second: revenant_die_00
+  - first:
+      213: -1195274630407961116
+    second: revenant_hurt_02
+  - first:
+      213: -5000724604458274256
+    second: revenant_hurt_01
+  - first:
+      213: -6542604866045564308
+    second: revenant_jump_00
+  - first:
+      213: -8528958526796778086
+    second: phantom knight-Sheet_35
+  - first:
+      213: -166424575043978179
+    second: phantom knight-Sheet_36
+  - first:
+      213: 4522542945970438731
+    second: phantom knight-Sheet_37
+  - first:
+      213: -6752980759109952382
+    second: revenant_jump_01
+  - first:
+      213: 7905076975611698204
+    second: phantom knight-Sheet_39
+  - first:
+      213: 6277731166368713781
+    second: phantom knight-Sheet_40
+  - first:
+      213: -8572174903787696456
+    second: phantom knight-Sheet_41
+  - first:
+      213: 405461006164869367
+    second: phantom knight-Sheet_42
+  - first:
+      213: 251335097665461696
+    second: phantom knight-Sheet_43
+  - first:
+      213: -1009928004313748732
+    second: phantom knight-Sheet_44
+  - first:
+      213: 9086771873518048070
+    second: phantom knight-Sheet_45
+  - first:
+      213: 6916043487161389896
+    second: phantom knight-Sheet_46
+  - first:
+      213: -6983163026945703064
+    second: phantom knight-Sheet_47
+  - first:
+      213: -858225074459978551
+    second: phantom knight-Sheet_48
+  - first:
+      213: -904748476057276072
+    second: phantom knight-Sheet_49
+  - first:
+      213: 1842010830536307472
+    second: revenant_die_07
+  - first:
+      213: 3953939917702506240
+    second: revenant_die_06
+  - first:
+      213: 3108158184054758723
+    second: phantom knight-Sheet_52
+  - first:
+      213: -6740091648707457299
+    second: phantom knight-Sheet_53
+  - first:
+      213: 975691318117417238
+    second: phantom knight-Sheet_54
+  - first:
+      213: -4519542062414561203
+    second: revenant_fall_01
+  - first:
+      213: -7838602120015776578
+    second: revenant_fall_00
+  - first:
+      213: -9051086443914371098
+    second: revenant_jump_03
+  - first:
+      213: 1862621115667923268
+    second: revenant_jump_02
+  - first:
+      213: 5938518877809443509
+    second: revenant-run-01
+  - first:
+      213: -842193085258881531
+    second: revenant-run-00
+  - first:
+      213: 6478107925035593639
+    second: revenant-idle-03
+  - first:
+      213: 8748483305878462176
+    second: revenant-idle-02
+  - first:
+      213: 2538595279962938409
+    second: revenant-idle-01
+  - first:
+      213: 4846366318012612624
+    second: revenant-idle-00
+  - first:
+      213: -3922995951365766487
+    second: revenant-attack-01
+  - first:
+      213: -812327940519316494
+    second: revenant-attack-00
+  - first:
+      213: 386947804138170185
+    second: revenant-run-05
+  - first:
+      213: -5425065970450048684
+    second: revenant-run-04
+  - first:
+      213: -5900765153086650218
+    second: revenant-run-03
+  - first:
+      213: 2466407687473395986
+    second: revenant-run-02
+  - first:
+      213: 6939617777892454648
+    second: revenant-hurt-00
+  - first:
+      213: 1680257876749839835
+    second: revenant-attack-06
+  - first:
+      213: 5481076965163454995
+    second: revenant-attack-05
+  - first:
+      213: -8595165564251786935
+    second: revenant-attack-04
+  - first:
+      213: 7349272083373395356
+    second: revenant-attack-02
+  - first:
+      213: 1254582109433651054
+    second: revenant-die-01
+  - first:
+      213: 7218525765698832281
+    second: revenant-die-00
+  - first:
+      213: 6964673852626368771
+    second: revenant-hurt-01
+  - first:
+      213: -7435086169701730923
+    second: revenant-die-05
+  - first:
+      213: 1926943354820015689
+    second: revenant-die-04
+  - first:
+      213: 9199418012249363420
+    second: revenant-fall-01
+  - first:
+      213: 6179874987587301483
+    second: revenant-fall-00
+  - first:
+      213: -8943385313502686663
+    second: revenant-jump-03
+  - first:
+      213: 5386527123313343836
+    second: revenant-jump-02
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: revenant-run-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b288cba47bd96250800000000000000
+      internalID: 5938518877809443509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-run-00
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 255
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506aad0e9ddef44f0800000000000000
+      internalID: -842193085258881531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-idle-03
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 255
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7afa368d5dcd6e950800000000000000
+      internalID: 6478107925035593639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-idle-02
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 255
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee125a173bd86970800000000000000
+      internalID: 8748483305878462176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-idle-01
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 255
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c9ca205f6ea3320800000000000000
+      internalID: 2538595279962938409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-idle-00
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 255
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0104f843d70c14340800000000000000
+      internalID: 4846366318012612624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-attack-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 204
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a24c8797f7be89c0800000000000000
+      internalID: -3922995951365766487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-attack-00
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 204
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3b830ca080ab4f0800000000000000
+      internalID: -812327940519316494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-run-05
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 204
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947e54c4af6be5500800000000000000
+      internalID: 386947804138170185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-run-04
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 204
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459d34c3e3b46b4b0800000000000000
+      internalID: -5425065970450048684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-run-03
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 204
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698444b5b554c1ea0800000000000000
+      internalID: -5900765153086650218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-run-02
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 204
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219f42369b07a3220800000000000000
+      internalID: 2466407687473395986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-hurt-00
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0f340f9997e4060800000000000000
+      internalID: 6939617777892454648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-attack-06
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 153
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdde9b2f2a9715710800000000000000
+      internalID: 1680257876749839835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-attack-05
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 153
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312d427b572b01c40800000000000000
+      internalID: 5481076965163454995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-attack-04
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 153
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9413a1d5576d7b880800000000000000
+      internalID: -8595165564251786935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-attack-03
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 153
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a248a3ed6e646010800000000000000
+      internalID: 1181190420527858341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-attack-02
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 153
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d8a2f850cddf560800000000000000
+      internalID: 7349272083373395356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-03
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 102
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6041fce662199d100800000000000000
+      internalID: 133297258237989894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-02
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 102
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c604ed1470ba780800000000000000
+      internalID: -8670828678088725360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-01
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 102
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f5a5e08cb296110800000000000000
+      internalID: 1254582109433651054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-00
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 102
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 997cb7240fa5d2460800000000000000
+      internalID: 7218525765698832281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-hurt-02
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 102
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe33abbc09bfb13a0800000000000000
+      internalID: -6693479821844270097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-hurt-01
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 102
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309fe32f7fd77a060800000000000000
+      internalID: 6964673852626368771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-jump-01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 51
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7f08837302090b60800000000000000
+      internalID: 7712698050695139196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-jump-00
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 51
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857ff19dfdacc6430800000000000000
+      internalID: 3777617250226272088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-07
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 51
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94631dc5c9d0025a0800000000000000
+      internalID: -6548218892973427127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-06
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 51
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7218f6212fde7550800000000000000
+      internalID: 6160606673770123900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-05
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 51
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595328c758441d890800000000000000
+      internalID: -7435086169701730923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-die-04
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 51
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 946b85695c0edba10800000000000000
+      internalID: 1926943354820015689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-fall-01
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3147801f5eaaf70800000000000000
+      internalID: 9199418012249363420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-fall-00
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b60767f0f8353c550800000000000000
+      internalID: 6179874987587301483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-jump-03
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9321a330176b2e380800000000000000
+      internalID: -8943385313502686663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: revenant-jump-02
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 57
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d391e21e9c0ca40800000000000000
+      internalID: 5386527123313343836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -8,6 +8,17 @@ TagManager:
   - Trap
   - CanBePickedUp
   - VirtualCamera
+  - Bullet
+  - interaction
+  - ladder
+  - disabled
+  - sideWalls
+  - mainRoom
+  - Hall
+  - HallRoom
+  - background
+  - Boss
+  - Shop
   layers:
   - Default
   - TransparentFX
@@ -24,13 +35,13 @@ TagManager:
   - Enemies
   - Player
   - Ammo
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Trap
+  - CamLimit
+  - Boss
+  - Invincibility
+  - Shop
+  - Kunai
   - 
   - 
   - 

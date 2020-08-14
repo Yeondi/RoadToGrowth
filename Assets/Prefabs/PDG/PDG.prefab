@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5967799483545370379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5967799483545370380}
+  - component: {fileID: 5967799483545370381}
+  m_Layer: 0
+  m_Name: PDG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5967799483545370380
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967799483545370379}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5967799483545370381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967799483545370379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f57fc1d5758d647980704c620077e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoomRandomCircleRadius: 100
+  ellipse_width: 400
+  ellipse_height: 20
+  RoomCount: 50
+  RoomMaxWidth: 30
+  RoomMinWidth: 3
+  RoomMaxHeight: 30
+  RoomMinHeight: 3
+  HallWidth: 3
+  MainRoomMulValue: 0.7
+  HallOffsetOfEdge: 1
+  cam: {fileID: 0}
+  roomObj: {fileID: 11413614, guid: 1c6931cab9e0045209a2b45b45c5247b, type: 3}
+  cameramove: {fileID: 0}
+  setBackGround: {fileID: 6243841661876728305, guid: d05bab2604430e04b806d8068c2caedc,
+    type: 3}
+  decorate: {fileID: 7840521238810392958, guid: 3d52a8e0e51bade4abc581ab4ca60aeb,
+    type: 3}
+  OnTriggerSignal: 0
+  player: {fileID: 4935022220875898940, guid: d1e33a883744dc44facf0c2eba922fc6, type: 3}
+  TileForDebug: {fileID: 11400000, guid: 4ecfe4c8a7e6cf44ba21e92c6974b195, type: 2}
+  TileForDebug2: {fileID: 11400000, guid: f8705d3a7fc1f0a4f98e6c74c56d6aa3, type: 2}
+  TileLadder: {fileID: 11400000, guid: bd8fdd5c9023e124086d96be91a21e6b, type: 2}
+  floorTiles:
+  - {fileID: 11400000, guid: a8ad0ad692b90d146b82c59361d65576, type: 2}
+  - {fileID: 11400000, guid: 5fbcf9e1f9b5893439b63d0cf4f4e8d1, type: 2}
+  - {fileID: 11400000, guid: 0bd3e3763a1f01c4ab341bc576ba976c, type: 2}
+  - {fileID: 11400000, guid: dc60632f2cd249d42ad429957e657b28, type: 2}
+  - {fileID: 11400000, guid: 2377bbd3d785d024e99cdf9bd14a42fb, type: 2}
+  - {fileID: 11400000, guid: e998c04bf9cf58b4a83d23d6cb4783df, type: 2}
+  - {fileID: 11400000, guid: 2f8a8e1f28bd18e459670cba08835995, type: 2}
+  - {fileID: 11400000, guid: 2f8a8e1f28bd18e459670cba08835995, type: 2}
+  cellingTiles:
+  - {fileID: 11400000, guid: 8d5507c89991f5745b1412f211cfbcf0, type: 2}
+  sideWallTiles:
+  - {fileID: 11400000, guid: b62587b8a8778b744821822b4130e104, type: 2}
+  - {fileID: 11400000, guid: ba673a598143283438909614c0b28552, type: 2}
+  - {fileID: 11400000, guid: 96fe8c1c9ad8ba54cba1a8e63ded0e28, type: 2}
+  - {fileID: 11400000, guid: 2d11de6e336f9c341ae9782169c2891b, type: 2}
+  - {fileID: 11400000, guid: c1223a23b491b1643acff317de06784c, type: 2}
+  - {fileID: 11400000, guid: 987c24dae8efc5943ae5c8d3a558ebff, type: 2}
+  hallTiles:
+  - {fileID: 11400000, guid: 4e43deaeeeee17f4bb5e4f68cd099fc7, type: 2}
+  - {fileID: 11400000, guid: 7c40aeca933e03e49b2904abe82192f2, type: 2}
+  - {fileID: 11400000, guid: 73aa28b2a540ec24b94dbfa382799535, type: 2}
+  - {fileID: 11400000, guid: a39dd3690a448354b9574386cf9aa59b, type: 2}
+  - {fileID: 11400000, guid: 383360b77674c3446891f104d4c9efe3, type: 2}
+  - {fileID: 11400000, guid: f15594d88b077c240b63d585cb233441, type: 2}

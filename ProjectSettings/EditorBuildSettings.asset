@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Chapter1.unity
+    guid: 31536f1e0be2e8d498c3f71ed1d8fd82
+  - enabled: 1
+    path: Assets/Scenes/Random-Dungeon.unity
+    guid: 63aa0c31d72693b4598e29375f39c4a2
+  - enabled: 1
+    path: Assets/Scenes/Chapter3.unity
+    guid: 9cb4138cbde694f42aa7b47f0ccd95aa
   m_configObjects: {}

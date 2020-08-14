@@ -7,10 +7,14 @@ public class Weapon : MonoBehaviour
     public GameObject ammoPrefab;
     static List<GameObject> ammoPool;
     public int poolSize;
+    public float weaponVelocity;
+
+    public bool onFire;
+
 
     private void Awake()
     {
-        if(ammoPool == null)
+        if (ammoPool == null)
         {
             ammoPool = new List<GameObject>();
         }
@@ -18,16 +22,9 @@ public class Weapon : MonoBehaviour
         for(int i=0;i<poolSize;i++)
         {
             GameObject ammoObject = Instantiate(ammoPrefab);
+            ammoObject.name = "Bullet_" + i.ToString("00");
             ammoObject.SetActive(false);
             ammoPool.Add(ammoObject);
-        }
-    }
-
-    private void Update()
-    {
-        if(Input.GetMouseButtonDown(0))
-        {
-            FireAmmo();
         }
     }
 
@@ -45,9 +42,21 @@ public class Weapon : MonoBehaviour
         return null;
     }
 
-    private void FireAmmo()
+    public void FireAmmo(Vector3 position)
     {
+        //Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
+        GameObject ammo = SpawnAmmo(transform.position);
+
+        if(ammo != null)
+        {
+            onFire = true;
+            Arc arcScript = ammo.GetComponent<Arc>();
+
+            float travelDuration = 1.0f / weaponVelocity;
+
+            StartCoroutine(arcScript.TravelArc(position, travelDuration));
+        }
     }
 
     private void OnDestroy()

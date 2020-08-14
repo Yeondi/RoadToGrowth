@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,6 +9,9 @@ public class GameManager : MonoBehaviour
     public RPGCameraManager cameraManager;
 
     public SpawnPoint playerSpawnPoint;
+
+    public ShopManager shopManager;
+
 
     private void Awake()
     {
@@ -25,7 +29,10 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetKey("escape"))
+        {
+            Application.Quit();
+        }
     }
 
     public void SetupScene()
@@ -38,6 +45,7 @@ public class GameManager : MonoBehaviour
         if(playerSpawnPoint != null)
         {
             GameObject player = playerSpawnPoint.SpawnObject();
+            player.name = "Player";
             cameraManager.virtualCamera.Follow = player.transform;
         }
     }

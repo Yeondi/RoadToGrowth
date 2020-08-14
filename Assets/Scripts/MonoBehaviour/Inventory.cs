@@ -14,6 +14,19 @@ public class Inventory : MonoBehaviour
 
     GameObject[] slots = new GameObject[numSlots];
 
+    public int amountMoney = 0;
+
+    [SerializeField]
+    private Text moneyAmount;
+
+    public struct saveData
+    {
+        public string itemName;
+        public int amount;
+    }
+
+    saveData[] saveDatas = new saveData[numSlots];
+
     void Start()
     {
         CreateSlots();
@@ -22,7 +35,8 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(amountMoney + "원");
+        moneyAmount.text = "$ "+amountMoney;
     }
 
     public void CreateSlots()
@@ -45,9 +59,14 @@ public class Inventory : MonoBehaviour
 
     public bool AddItem(Item itemToAdd)
     {
-        for(int i=0;i<items.Length;i++)
+        for (int i = 0; i < items.Length; i++)
         {
-            if(items[i]!=null && items[i].itemType == itemToAdd.itemType && itemToAdd.Stackable == true)
+            if (itemToAdd.itemType == Item.ItemType.COIN)
+            {
+                amountMoney += 10;
+                return true;
+            }
+            if (items[i] != null && items[i].itemType == itemToAdd.itemType && itemToAdd.Stackable == true)
             {
                 items[i].quantity = items[i].quantity + 1;
 
@@ -59,15 +78,22 @@ public class Inventory : MonoBehaviour
 
                 quantityText.text = items[i].quantity.ToString();
 
+                saveDatas[i].itemName = itemToAdd.objectName;
+                saveDatas[i].amount = items[i].quantity;
+
+
+
                 return true;
             }
-            if(items[i] == null)
+            if (items[i] == null)
             {
                 //아이템을 빈 슬롯에 추가
                 items[i] = Instantiate(itemToAdd);
                 items[i].quantity = 1;
                 itemImages[i].sprite = itemToAdd.sprite;
                 itemImages[i].enabled = true;
+                saveDatas[i].itemName = itemToAdd.objectName;
+                saveDatas[i].amount = items[i].quantity;
                 return true;
             }
         }

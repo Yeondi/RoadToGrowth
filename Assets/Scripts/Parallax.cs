@@ -15,10 +15,6 @@ public class Parallax : MonoBehaviour
     [SerializeField]
     private float offsetByX = 13f;
 
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     private void Update()
     {
