@@ -1,6 +1,6 @@
 # RoadToGrowth
 
-# https://www.youtube.com/playlist?list=PLMZ4SZ4Qaji3c0mmmiluDhWtS31DNp7yu
+# https://youtu.be/wboRtnjx_nE
 # 위 링크는 각 챕터별 영상이 있는 링크입니다.
 
 스크립트는 MonoBehaviour을 상속받는 스크립트, 랜덤 던전 생성 알고리즘에 쓰이는 스크립트, 오브젝트용 스크립트 , 게임 매니징용 스크립트, 적 상태 스크립트로 나뉘어 있습니다.
@@ -9,21 +9,36 @@
 
 일정 반경안에 들어오면 적은 반응해서 공격을 하고 플레이어가 일정 범위를 벗어나면 제자리로 돌아갑니다.
 
-오브젝트 풀을 이용해 적이 사용하는 탄환을 관리 했습니다.
+오브젝트 풀링을 이용해 적이 사용하는 탄환을 관리 했습니다.
 
 관련 스크립트는 https://github.com/Yeondi/RoadToGrowth/tree/master/Assets/Scripts/MonoBehaviour 이곳에서 
 Weapon.cs / Ammo.cs / Enemy.cs / Character.cs 입니다.
 
-https://github.com/Yeondi/RoadToGrowth/tree/master/Assets/Scripts/States 이곳엔 배회 관련 스크립트가 있습니다.
+https://github.com/Yeondi/RoadToGrowth/tree/master/Assets/Scripts/States
+이곳엔 배회 관련 스크립트가 있습니다.
 
+GameManager를 비롯한 일부 카메라 스크립트, 상점 등 이러한 경우엔 혼선을 방지하기 위해
+싱글턴 디자인 패턴을 사용했습니다.
 
 챕터2는 https://github.com/a327ex/blog/issues/7
 해당 깃허브 링크를 기초로 짠 알고리즘입니다.
+
+일정한 방들을 절차적으로 생성하는 알고리즘입니다.
+설정된 크기 내의 방을 랜덤으로 생성한 후 서로의 위치를 계산해 퍼뜨려 준 후
+해당 크기의 방 안에 타일맵을 생성해 찍어내는 방식입니다.
+
 랜덤으로 스폰장소와 상점,보스 리젠 장소를 정했으며
 사다리와 중간 연결 골목을 이용해 보스가 있는 방까지 이동합니다.
 보스는 총 세번 되살아나며 클리어 후 통과하면 다음 챕터로 넘어갑니다.
 
+사다리 오르는 애니메이션이 존재하지 않아 따로 설정해두지 않았습니다.
+
 관련 스크립트는 https://github.com/Yeondi/RoadToGrowth/tree/master/Assets/Scripts/PDG 의 스크립트들이며 대부분 PDG.cs에 들어있습니다.
+
+
+챕터3의 경우 해당 캐릭터의 과거모습이라고 설정을 한 후 만들었습니다.
+방향키의 값에 따라 특수스킬의 방향이 결정됩니다.
+3.5초 후 자동으로 사라지는 검이고 특수스킬 시전 후 점프 키 입력시 해당 검 위치로 순간이동이 가능합니다.
 
 
 캐릭터의 기본 움직임은 movementController.cs를 이용해 움직입니다.
