@@ -69,6 +69,11 @@ public class PDG : MonoBehaviour
 
 
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     //Procedural Dungeon Generator
     public Vector2 GetRandomPointInCircle(float radius)
     {
@@ -401,12 +406,6 @@ public class PDG : MonoBehaviour
             r.isHorizontal = true;
         else if (height > width)
             r.isVertical = true;
-        else if (height == width && height == 1 && width == 1)
-        {
-            Debug.Log("(1,1)인 스몰 브릿지, 룸의 가운데에 있는지 확인 " + r.name);
-        }
-        else
-            Debug.Log("판단 오류입니다. 판단 룸 번호 : " + r.name);
     }
 
     private void setTilesOnMainRooms()
@@ -530,10 +529,14 @@ public class PDG : MonoBehaviour
 
     private void mapCreationComplete()
     {
+
+        //GameObject.Find("ladderTileMap").AddComponent<Ladder>();
+
+        GameObject.Find("Sub Camera").GetComponent<Camera>().enabled = false;
+        GameObject.Find("Main Camera").GetComponent<Camera>().enabled = true;
+        GameObject.Find("Joystick canvas").GetComponent<Canvas>().enabled = true;
+
         createSpawnPoint();
-
-        GameObject.Find("ladderTileMap").AddComponent<Ladder>();
-
         setBackGround.setMainRoomsInfo(mainRooms);
     }
 
@@ -578,7 +581,15 @@ public class PDG : MonoBehaviour
             //tc.isTrigger = true;
             tc.usedByComposite = true;
             cc.isTrigger = true;
-            tm.tag = "ladder";
+            go.layer = 22;
+            if (tilemapName == "ladderTileMap")
+            {
+                go.AddComponent<ladder>();
+                tm.tag = "ladder";
+                Destroy(cc);
+                tc.usedByComposite = false;
+                tc.isTrigger = true;
+            }
         }
 
         tm.tileAnchor = new Vector3(0.5f, 0.5f, 0);

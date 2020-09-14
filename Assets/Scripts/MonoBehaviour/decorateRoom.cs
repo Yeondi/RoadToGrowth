@@ -22,6 +22,9 @@ public class decorateRoom : MonoBehaviour
         pdg = GameObject.Find("PDG").GetComponent<PDG>();
         player = GameObject.Find("Player").GetComponent<Player>();
         decoration = pdg.CreateTilemap("decorationMap", true);
+        decoration.gameObject.AddComponent<interaction>();
+        decoration.tag = "interaction";
+        decoration.gameObject.layer = 23;
         decoration.tileAnchor = new Vector3(0.5f, 0.11f, 0f);
         decoration.GetComponent<TilemapRenderer>().sortingOrder = -10;
 

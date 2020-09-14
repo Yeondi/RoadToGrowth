@@ -174,6 +174,7 @@ MonoBehaviour:
   movementSpeed: 4
   player: {fileID: 0}
   backToPosition: {x: 0, y: 0}
+  nAttackCount: 0
   drop: {fileID: 3770134059369426982, guid: d428c5db7c3bd254e89c365123ff284b, type: 3}
 --- !u!114 &-2913803219141292378
 MonoBehaviour:
@@ -189,6 +190,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ammoPrefab: {fileID: 2539690305087882215, guid: 5581aea9287ddc34ebd647539537009a,
     type: 3}
-  poolSize: 2
-  weaponVelocity: 2
+  poolSize: 5
+  weaponVelocity: 2.5
   onFire: 0

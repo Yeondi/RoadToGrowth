@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2029413148426480540}
   - component: {fileID: 2029413148426480539}
   - component: {fileID: 2029413148426480538}
+  - component: {fileID: -3723498726979016325}
   m_Layer: 11
   m_Name: monsterEye
   m_TagString: CanBePickedUp
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1440796615
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 4461c87bad5222349b14c22b26d43b95, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -121,6 +122,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &-3723498726979016325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2029413148426480542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afcaf427830745e4cb323423bfe61966, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 11400000, guid: 5ffa440e7bab2cf439ba91d13a46c38b, type: 2}
+  isForSale: 0
 --- !u!1 &2029413148457078460
 GameObject:
   m_ObjectHideFlags: 0

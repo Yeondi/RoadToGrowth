@@ -12,18 +12,13 @@ public enum interactionType
 }
 public class interaction : MonoBehaviour
 {
-    [SerializeField]
-    private Player player;
-
     public bool onPortal;
 
     public AsyncOperation asyncScene;
 
     [SerializeField]
     private Sprite announcement;
-    [SerializeField]
     private Image loadingBar;
-
 
     //말걸기,포탈타기,장치작동
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,7 +28,14 @@ public class interaction : MonoBehaviour
             //플레이어 키입력 == w
             onPortal = true;
         }
+    }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player"))
+        {
+            onPortal = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -46,9 +48,11 @@ public class interaction : MonoBehaviour
 
     private void Update()
     {
-        if (onPortal && (Input.GetKeyDown(KeyCode.W) || Input.GetButtonDown("Fire3")))
+        if (onPortal && (Input.GetKeyDown(KeyCode.W) || Input.GetButtonDown("Fire2")))
         {
-            SceneManager.LoadScene("Random-Dungeon");
+            int SceneNumber = SceneManager.GetActiveScene().buildIndex + 1;
+
+            SceneManager.LoadScene(SceneNumber);
             //loadScene();
         }
     }

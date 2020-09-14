@@ -37,6 +37,11 @@ public class hero : Character
     public Inventory inventoryPrefab;
     Inventory inventory;
 
+    [HideInInspector]
+    public float backupInputAxisVertical;
+
+    private Collider2D saveCollision;
+
 
     void Start()
     {
@@ -52,7 +57,7 @@ public class hero : Character
         if (attackDelay >= float.Epsilon)
             attackDelay -= Time.deltaTime;
 
-        if (Input.GetKey(KeyCode.X) && attackDelay <= float.Epsilon)
+        if ((Input.GetKey(KeyCode.X) || Input.GetButtonDown("Fire3")) && attackDelay <= float.Epsilon)
         {
             attackDelay = attackCoolDown;
             if (attackLevel == 0)
@@ -73,16 +78,17 @@ public class hero : Character
             StartCoroutine("attack");
         }
 
-        if(Input.GetKey(KeyCode.C))
+        if(Input.GetKey(KeyCode.C) || Input.GetButtonDown("Jump"))
         {
             jump();
         }
 
-        if (Input.GetKey(KeyCode.S) && kunai == null)
+        if ((Input.GetKey(KeyCode.Q) || Input.GetButtonDown("Fire2")) && kunai == null)
         {
+            backupInputAxisVertical = Input.GetAxisRaw("Vertical");
             throwWeapon();
         }
-        if (kunai != null && Input.GetKeyDown(KeyCode.F))
+        if (kunai != null && (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Jump")))
             teleportToKunai();
     }
 
@@ -96,25 +102,38 @@ public class hero : Character
         kunai.GetComponent<kunai>().direction = playerDirection;
     }
 
+    //private void OnTriggerEnter2D(Collider2D collision)
+    //{
+    //    Debug.Log("Hero onTrigger Test");
+    //    Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
+    //    if (hitObject != null)
+    //    {
+    //        bool shouldDisappear = false;
+    //        switch (hitObject.itemType)
+    //        {
+    //            case Item.ItemType.END:
+    //                shouldDisappear = true;
+    //                break;
+    //            case Item.ItemType.COIN:
+    //                shouldDisappear = inventory.AddItem(hitObject);
+    //                break;
+    //            default:
+    //                break;
+    //        }
+
+    //        if (shouldDisappear)
+    //            collision.gameObject.SetActive(false);
+    //    }
+    //}
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
-        if(hitObject != null)
+        if (collision.gameObject.CompareTag("CanBePickedUp"))
         {
-            bool shouldDisappear = false;
-
-            switch(hitObject.itemType)
-            {
-                case Item.ItemType.END:
-                    shouldDisappear = true;
-                    
-                    break;
-                default:
-                    break;
-            }
-
-            if (shouldDisappear)
-                collision.gameObject.SetActive(false);
+            Consumable consumable = collision.gameObject.GetComponent<Consumable>();
+            saveCollision = collision;
+            if (consumable.isForSale == false)
+                pickUpItem(collision);
         }
     }
 
@@ -124,13 +143,26 @@ public class hero : Character
         Rigidbody2D rigid = kunai.GetComponent<Rigidbody2D>();
         rigid.gravityScale = 0;
 
-        if (transform.localScale.x > 0)
+        if (Input.GetAxisRaw("Vertical") <= 0.5f && Input.GetAxisRaw("Vertical") >= -0.5f)
         {
-            kunaiDirection = 1;
+            if (transform.localScale.x > 0)
+            {
+                kunaiDirection = 1;
+            }
+            else if (transform.localScale.x < 0)
+            {
+                kunaiDirection = -1;
+            }
+            kunaiVelocity = new Vector2(10f, 0f);
         }
-        else if (transform.localScale.x < 0)
+        else
         {
-            kunaiDirection = -1;
+            //kunai velocity 값 조정
+            kunaiVelocity = new Vector2(0f, 10f);
+            if (Input.GetAxisRaw("Vertical") > 0)
+                kunaiDirection = 1;
+            else if (Input.GetAxisRaw("Vertical") < 0)
+                kunaiDirection = -1;
         }
 
         GameObject.Find("Sub Camera").GetComponent<CameraMove>().goFollowKunai = true;
@@ -198,7 +230,20 @@ public class hero : Character
 
     public override void AttackedByEnemy(int damage, float interval)
     {
-        throw new System.NotImplementedException();
+        StartCoroutine(FlickerCharacter());
+        healthPoints.value = healthPoints.value - (damage - defence);
+
+        if (healthPoints.value <= float.Epsilon)
+        {
+            KillCharacter();
+        }
+
+        if (interval > float.Epsilon)
+        {
+            interval -= Time.deltaTime;
+        }
+
+        StopCoroutine(FlickerCharacter());
     }
 
     public override IEnumerator FlickerCharacter()
@@ -240,6 +285,10 @@ public class hero : Character
                     shouldDisappear = defenceUp();
                     inventory.AddItem(hitObject);
                     break;
+                case Item.ItemType.END:
+                    shouldDisappear = true;
+                    endScene.endSceneInstance.theCurtainGoesDown = true;
+                    break;
                 default:
                     break;
             }
@@ -271,4 +320,6 @@ public class hero : Character
         defence += 5;
         return true;
     }
+
+
 }

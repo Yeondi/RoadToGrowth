@@ -14,8 +14,7 @@ public class MovementController : MonoBehaviour
     string animationState = "AnimationState";
 
     Rigidbody2D rb2D;
-    SpriteRenderer renderer;
-
+    
     bool isJumping;
     bool isFalling;
     public bool onAttack;
@@ -25,16 +24,25 @@ public class MovementController : MonoBehaviour
 
     PolygonCollider2D childCollider;
 
-    public bool onLadder;
-    public float climbSpeed;
-    private float climbDirection;
-    private float gravityStore;
+    float climbDirection;
+
+    public bool onLadder = false;
+    [HideInInspector]
+    public bool bottomLadder = false;
+    [HideInInspector]
+    public bool topLadder = false;
+
+    public ladder ladder;
+    public float climbSpeed = 3f;
+    [HideInInspector]
+    public float gravityStore;
 
     public int nAttackCount = 1;
 
     Boss boss;
 
     Player player;
+
     public enum CharacterStates
     {
         walk = 1,
@@ -51,7 +59,6 @@ public class MovementController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
-        renderer = gameObject.GetComponent<SpriteRenderer>();
         childCollider = GetComponentInChildren<PolygonCollider2D>();
 
         gravityStore = rb2D.gravityScale;
@@ -62,7 +69,7 @@ public class MovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")))
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetButtonDown("Jump")) && !onLadder)
         {
             isJumping = true;
             animator.SetBool("isJumping", true);
@@ -70,7 +77,7 @@ public class MovementController : MonoBehaviour
             Jump();
         }
 
-        if (Input.GetKeyDown(KeyCode.X) || Input.GetButtonDown("Fire3"))
+        if (Input.GetKeyDown(KeyCode.X) || Input.GetButtonDown("Fire3") && !onLadder)
         {
             Debug.Log("공격키 눌림");
             animator.SetTrigger("onAttack");
@@ -85,16 +92,16 @@ public class MovementController : MonoBehaviour
 
         }
 
-        if(onLadder)
+        if (onLadder)
         {
             rb2D.gravityScale = 0f;
 
-            climbDirection = climbSpeed * Input.GetAxisRaw("Vertical");
+            climbDirection = climbSpeed * Input.GetAxis("Vertical");
 
             rb2D.velocity = new Vector2(rb2D.velocity.x, climbDirection);
         }
 
-        if(!onLadder)
+        if (!onLadder)
         {
             rb2D.gravityScale = gravityStore;
         }
@@ -132,18 +139,26 @@ public class MovementController : MonoBehaviour
         Vector3 moveVelocity = Vector3.zero;
         movement.x = Input.GetAxisRaw("Horizontal");
 
+        //if(onLadder && Mathf.Abs(Input.GetAxis("Vertical"))>.1f)
+        //{
+        //    rb2D.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
+        //    transform.position = new Vector3(ladder.transform.position.x, rb2D.position.y);
+        //    rb2D.gravityScale = 0f;
+        //    climb();
+        //}
+
         if (movement.x > 0)
         {
             moveVelocity = Vector3.right;
-            renderer.flipX = false;
             animator.SetBool("isMoving", true);
+            transform.localScale = new Vector3(1, 1, 1);
             animator.SetInteger(animationState, (int)CharacterStates.walk);
             playerCurrentDirection = 1;
         }
         else if (movement.x < 0)
         {
             moveVelocity = Vector3.left;
-            renderer.flipX = true;
+            transform.localScale = new Vector3(-1, 1, 1);
             animator.SetBool("isMoving", true);
             animator.SetInteger(animationState, (int)CharacterStates.walk);
             playerCurrentDirection = -1;
@@ -156,6 +171,31 @@ public class MovementController : MonoBehaviour
         }
 
         transform.position += moveVelocity * movementSpeed * Time.deltaTime;
+    }
+
+    private void climb()
+    {
+        if(Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.C))
+        {
+            rb2D.constraints = RigidbodyConstraints2D.FreezeRotation;
+            onLadder = false;
+            rb2D.gravityScale = gravityStore;
+            Jump();
+            return;
+        }
+        float vDirection = Input.GetAxis("Vertical");
+        if(vDirection > .1f && !topLadder)
+        {
+            rb2D.velocity = new Vector2(0f, vDirection * climbSpeed);
+        }
+        else if(vDirection < .1f && !bottomLadder)
+        {
+            rb2D.velocity = new Vector2(0f, vDirection * climbSpeed);
+        }
+        else
+        {
+            rb2D.velocity = new Vector2(0f, 0f);
+        }
     }
 
     private void Jump()

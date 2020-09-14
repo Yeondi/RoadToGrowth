@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 980214569274752421}
   - component: {fileID: 980214569274752420}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: decorateRoom
-  m_TagString: Untagged
+  m_TagString: interaction
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -20,9 +20,14 @@ public class HealthBar : MonoBehaviour
         maxHealthPoints = character.MaxHealthPoints;
     }
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     void Update()
     {
-        if(character != null)
+        if (character != null)
         {
             meterImage.fillAmount = healthPoints.value / maxHealthPoints;
 

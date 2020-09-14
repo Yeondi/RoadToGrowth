@@ -61,6 +61,6 @@ public class Weapon : MonoBehaviour
 
     private void OnDestroy()
     {
-        ammoPool = null;
+        //ammoPool = null;
     }
 }

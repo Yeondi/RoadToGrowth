@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
 
     public ShopManager shopManager;
 
+    public endScene endScene;
+
 
     private void Awake()
     {
@@ -19,6 +21,7 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         else
             sharedInstance = this;
+
     }
 
     void Start()
@@ -26,18 +29,18 @@ public class GameManager : MonoBehaviour
         SetupScene();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        if(Input.GetKey("escape"))
-        {
-            Application.Quit();
-        }
-    }
+    //void Update()
+    //{
+    //    if(Input.GetKey("escape"))
+    //    {
+    //        Application.Quit();
+    //    }
+    //}
 
     public void SetupScene()
     {
         SpawnPlayer();
+        EndScene();
     }
 
     public void SpawnPlayer()
@@ -47,6 +50,14 @@ public class GameManager : MonoBehaviour
             GameObject player = playerSpawnPoint.SpawnObject();
             player.name = "Player";
             cameraManager.virtualCamera.Follow = player.transform;
+        }
+    }
+
+    public void EndScene()
+    {
+        if(endScene != null)
+        {
+            endScene.saveScene();
         }
     }
 }

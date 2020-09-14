@@ -34,6 +34,7 @@ public class ShopManager : MonoBehaviour
         if (isShopOpen)
         {
             shop.initShop(room);
+            isShopOpen = false;
         }
     }
 

@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class Player : Character
 {
@@ -21,11 +23,18 @@ public class Player : Character
 
     Coroutine damageCoroutine;
 
+    bool readyToPayment;
+
+    private Collider2D saveCollision;
+
+    private purchaseGuidance canPurchase;
+
     public void Start()
     {
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
         movementController = GameObject.Find("Player").GetComponent<MovementController>();
+        canPurchase = GameObject.Find("canPurchase").GetComponent<purchaseGuidance>();
         //movementController = GameObject.Find("TPlayerObject(Clone)").GetComponent<MovementController>();
     }
 
@@ -33,15 +42,32 @@ public class Player : Character
     {
         if (collision.gameObject.CompareTag("CanBePickedUp"))
         {
-            pickUpItem(collision);
+            Consumable consumable = collision.gameObject.GetComponent<Consumable>();
+            readyToPayment = true;
+            saveCollision = collision;
+            if (consumable.isForSale == false)
+                pickUpItem(collision);
+            else
+            {
+                canPurchase = collision.gameObject.GetComponentInChildren<purchaseGuidance>();
+                canPurchase.guidance();
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("CanBePickedUp"))
+        {
+            readyToPayment = false;
+            canPurchase.resetGuidance();
         }
     }
 
     public override void pickUpItem(Collider2D collision)
     {
         Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
-        Consumable consumable = collision.gameObject.GetComponent<Consumable>();
-        if (hitObject != null && consumable.isForSale == false)
+        if (hitObject != null)
         {
             bool shouldDisappear = false;
 
@@ -61,6 +87,10 @@ public class Player : Character
                     shouldDisappear = defenceUp();
                     inventory.AddItem(hitObject);
                     break;
+                case Item.ItemType.END:
+                    Debug.Log("END");
+                    shouldDisappear = true;
+                    break;
                 default:
                     break;
             }
@@ -71,29 +101,47 @@ public class Player : Character
         }
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    public override void purchaseItem(Collider2D collision)
     {
+        Debug.Log("purchaseItem");
         if (collision.gameObject.CompareTag("CanBePickedUp"))
         {
-            Consumable consumable = collision.gameObject.GetComponent<Consumable>();
             Item hitObject = collision.gameObject.GetComponent<Consumable>().item;
 
-            if (hitObject != null && consumable.isForSale == true && Input.GetKeyDown(KeyCode.R))
+            if (hitObject != null && (Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire2")))
             {
                 bool shouldDisappear = false;
 
                 switch (hitObject.itemType)
                 {
                     case Item.ItemType.HEALTH:
-                        shouldDisappear = AdjustHitPoints(hitObject.quantity);
+                        if (hitObject.price <= inventory.amountMoney)
+                        {
+                            shouldDisappear = AdjustHitPoints(hitObject.quantity);
+                            inventory.amountMoney -= hitObject.price;
+                        }
+                        else
+                            Debug.Log(hitObject.name + " 돈이 부족합니다.");
                         break;
                     case Item.ItemType.ATK_BUFF:
-                        shouldDisappear = atkPowerUp();
-                        inventory.AddItem(hitObject);
+                        if (hitObject.price <= inventory.amountMoney)
+                        {
+                            shouldDisappear = atkPowerUp();
+                            inventory.AddItem(hitObject);
+                            inventory.amountMoney -= hitObject.price;
+                        }
+                        else
+                            Debug.Log(hitObject.name + " 돈이 부족합니다.");
                         break;
                     case Item.ItemType.DF_BUFF:
-                        shouldDisappear = defenceUp();
-                        inventory.AddItem(hitObject);
+                        if (hitObject.price <= inventory.amountMoney)
+                        {
+                            shouldDisappear = defenceUp();
+                            inventory.AddItem(hitObject);
+                            inventory.amountMoney -= hitObject.price;
+                        }
+                        else
+                            Debug.Log(hitObject.name + " 돈이 부족합니다.");
                         break;
                     default:
                         break;
@@ -106,7 +154,10 @@ public class Player : Character
 
     private void Update()
     {
-        Debug.Log(healthPoints.value);
+        if(readyToPayment && Input.GetButtonDown("Fire2"))
+        {
+            purchaseItem(saveCollision);
+        }
     }
 
     public bool AdjustHitPoints(int amount)
@@ -159,18 +210,41 @@ public class Player : Character
     public override void KillCharacter()
     {
         base.KillCharacter();
-
         animator.SetInteger(animationState, (int)MovementController.CharacterStates.die);
 
         Destroy(healthBar.gameObject);
         Destroy(inventory.gameObject);
+
+        SceneManager.LoadScene("DIEScene");
     }
 
     public override void ResetCharacter()
     {
-        inventory = Instantiate(inventoryPrefab);
-        healthBar = Instantiate(healthBarPrefab);
-        healthBar.character = this;
+        if (GameObject.Find("Inventory") == null)
+        {
+            inventory = Instantiate(inventoryPrefab);
+            inventory.name = "Inventory";
+        }
+        else
+        {
+            if(SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                inventory = GameObject.Find("Inventory").GetComponent<Inventory>();
+            }
+        }
+        if (GameObject.Find("HealthBar") == null)
+        {
+            healthBar = Instantiate(healthBarPrefab);
+            healthBar.character = this;
+            healthBar.name = "HealthBar";
+        }
+        else
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            {
+                healthBar= GameObject.Find("HealthBar").GetComponent<HealthBar>();
+            }
+        }
 
         healthPoints.value = startingHealthPoints;
     }

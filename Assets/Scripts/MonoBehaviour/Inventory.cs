@@ -32,10 +32,14 @@ public class Inventory : MonoBehaviour
         CreateSlots();
     }
 
+    private void Awake()
+    {
+        DontDestroyOnLoad(gameObject);
+    }
+
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(amountMoney + "원");
         moneyAmount.text = "$ "+amountMoney;
     }
 

@@ -19,6 +19,7 @@ TagManager:
   - background
   - Boss
   - Shop
+  - wall
   layers:
   - Default
   - TransparentFX
@@ -42,8 +43,8 @@ TagManager:
   - Invincibility
   - Shop
   - Kunai
-  - 
-  - 
+  - ladder
+  - interaction
   - 
   - 
   - 

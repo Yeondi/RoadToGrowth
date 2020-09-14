@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class Shop : MonoBehaviour
 {
     public GameObject shopNpc;
-    public bool checkInit;
+    [SerializeField]
+    private bool checkInit = false;
 
-    private int nCheck = 0;
     private Text priceText;
 
     private GameObject npc;
@@ -16,7 +16,7 @@ public class Shop : MonoBehaviour
     public void initShop(Room room)
     {
         //룸 가운데에 npc소환
-        if (!checkInit && nCheck == 0)
+        if (!checkInit)
         {
             Debug.Log("상점주인 소환!" + room.name);
             Vector3 npcPos = new Vector3((room.pos.x + room.pos.width) - (room.pos.width / 2), room.pos.y + 3);
@@ -31,11 +31,11 @@ public class Shop : MonoBehaviour
                 go = ShopManager.sharedInstance.chosenItems[i];
                 ChosenItems[i] = Instantiate(go, new Vector3(npcPos.x - pos,npcPos.y), Quaternion.identity) as GameObject;
                 ChosenItems[i].GetComponent<Consumable>().isForSale = true;
-                ChosenItems[i].transform.Find("Canvas").Find("Text").GetComponent<Text>().text = ChosenItems[i].GetComponent<Consumable>().item.price.ToString();
+                //ChosenItems[i].transform.Find("Canvas").Find("priceText").GetComponent<Text>().text = ChosenItems[i].GetComponent<Consumable>().item.price.ToString();
+                ChosenItems[i].transform.GetChild(1).Find("Canvas").Find("priceText").GetComponent<Text>().text = ChosenItems[i].GetComponent<Consumable>().item.price.ToString();
                 pos += 2;
             }
             checkInit = true;
-            nCheck++;
         }
     }
 

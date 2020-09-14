@@ -37,6 +37,11 @@ public abstract class Character : MonoBehaviour
 
     }
 
+    public virtual void purchaseItem(Collider2D collision)
+    {
+
+    }
+
 
     public abstract void AttackedByEnemy(int damage, float interval);
 

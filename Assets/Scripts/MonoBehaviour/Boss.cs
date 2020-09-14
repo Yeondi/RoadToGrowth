@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 
 public class Boss : Character
@@ -40,7 +39,8 @@ public class Boss : Character
     {
         ResetCharacter();
         animator = GetComponent<Animator>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        //player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.Find("Player").transform;
         playerObject = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
         rb2d = GetComponent<Rigidbody2D>();
         GameObject.FindGameObjectWithTag("Player").GetComponent<MovementController>().setBossData(this);

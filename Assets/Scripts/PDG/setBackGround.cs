@@ -18,6 +18,7 @@ public class setBackGround : MonoBehaviour
 
         backgroundMap =  GameObject.Find("PDG").GetComponent<PDG>().CreateTilemap("backgroundMap", true);
         backgroundMap.GetComponent<TilemapRenderer>().sortingOrder = -15;
+        backgroundMap.gameObject.layer = 0;
         setBackGroundTiles();
     }
 
