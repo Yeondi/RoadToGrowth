@@ -57,3 +57,49 @@ GameManager를 비롯한 일부 카메라 스크립트, 상점 등 이러한 경
 
 https://atli-yeondi.tistory.com/category/%23%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98 이곳에 일부 작업 일지들을 적어놓았습니다.
 
+
+
+============================= ENG ==========================================
+
+Scripts are divided into scripts that inherit MonoBehavior, scripts used by random dungeon generation algorithms, scripts for objects, scripts for game management, and enemy state scripts.
+
+Chapter 1 made characters and enemies by using tile palettes to form maps.
+
+If it comes within a certain radius, the enemy reacts and attacks, and if the player is outside a certain range, it returns to its original position.
+
+Object pooling was used to manage bullets used by enemies.
+
+The related scripts are: https://github.com/Yeondi/RoadToGrowth/tree/master/Assets/Scripts/MonoBehaviour here: Weapon.cs / Enemy.cs / Character.cs / Character.cs
+
+https://github.com/Yeondi/RoadToGrowth/tree/master/Assets/Scripts/States Here's a script about roaming.
+
+Some camera scripts, such as GameManager, and stores, have used singleton design patterns to avoid confusion.
+
+Chapter 2 is an algorithm based on https://github.com/a327ex/blog/issues/7's GitHub link.
+
+It is an algorithm that procedurally generates certain rooms. It is a method of randomly creating a room within a set size, calculating and spreading each other's locations, and then creating and printing a tile map in a room of that size.
+
+Randomly choose a sponsor, store, boss regen location, and use the ladder and the intermediate alley to get to the boss's room. The boss is revived three times, cleared and passed to the next chapter.
+
+I didn't set the ladder climb separately because there was no animation.
+
+The scripts are from https://github.com/Yeondi/RoadToGrowth/tree/master/Assets/Scripts/PDG, most of which are located at PDG.cs.
+
+In the case of Chapter 3, I made it after setting it as the character's past appearance. The value of the rudder key determines the direction of the special skill. It automatically disappears after 3.5 seconds, and you can teleport to the relevant sword position when you enter the jump key after a special skill test.
+
+The character's basic movements are made using movementController.cs.
+
+I studied cocos2d-x based on c++ in 2020 and studied c# from around April, and it is a game that I produced after studying Unity by myself from June.
+
+Unity's initial principles of motion are not understood, so there are some parts that are divided in the most basic code part.
+
+Personally, I had a lot of difficulties in creating random dungeons, and with the help of a github, I worked hard for quite a long time, writing down the principles of production in my personal notebook.
+
+At first, we set the direction of each room like the game 'Spelunki', and then we template and print it randomly.
+
+I wanted a more diverse room, so I changed it to the current one.
+
+The most trial-and-error part was the initial trial and error in the process of creating a square room within the range and dividing it.
+
+https://atli-yeondi.tistory.com/category/%23%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98 I've written down some work logs here.
+
