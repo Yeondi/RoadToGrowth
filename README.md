@@ -57,6 +57,15 @@ GameManager를 비롯한 일부 카메라 스크립트, 상점 등 이러한 경
 
 https://atli-yeondi.tistory.com/category/%23%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98 이곳에 일부 작업 일지들을 적어놓았습니다.
 
+개발일지 일차별
+1. https://atli-yeondi.tistory.com/28 [완성] Procedural Dungeon Generation
+
+2. https://atli-yeondi.tistory.com/29 Procedural Dungeon Generation in Unity #1
+
+3. https://atli-yeondi.tistory.com/30 Procedural Dungeon Generation in Unity #2
+
+4. https://atli-yeondi.tistory.com/31 유니티 개발일지 + Procedural Dungeon Generation in Unity #3
+
 
 
 
