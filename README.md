@@ -58,3 +58,5 @@ GameManager를 비롯한 일부 카메라 스크립트, 상점 등 이러한 경
 
 5. https://atli-yeondi.tistory.com/35 Procedural Dungeon Generation in Unity #4
 
+영상 : https://youtube.com/playlist?list=PLMZ4SZ4Qaji3c0mmmiluDhWtS31DNp7yu
+
