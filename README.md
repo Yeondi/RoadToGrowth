@@ -1,5 +1,18 @@
 # RoadToGrowth
 
+개발일지 일차별
+1. https://atli-yeondi.tistory.com/28 [완성] Procedural Dungeon Generation
+
+2. https://atli-yeondi.tistory.com/29 Procedural Dungeon Generation in Unity #1
+
+3. https://atli-yeondi.tistory.com/30 Procedural Dungeon Generation in Unity #2
+
+4. https://atli-yeondi.tistory.com/31 유니티 개발일지 + Procedural Dungeon Generation in Unity #3
+
+5. https://atli-yeondi.tistory.com/35 Procedural Dungeon Generation in Unity #4
+
+영상 : https://youtube.com/playlist?list=PLMZ4SZ4Qaji3c0mmmiluDhWtS31DNp7yu
+
 #### 2D Side-Scrolling RPG
 1. 간단한 소개
 2. 주요 기술
@@ -47,16 +60,5 @@ GameManager를 비롯한 일부 카메라 스크립트, 상점 등 이러한 경
 
 
 
-개발일지 일차별
-1. https://atli-yeondi.tistory.com/28 [완성] Procedural Dungeon Generation
 
-2. https://atli-yeondi.tistory.com/29 Procedural Dungeon Generation in Unity #1
-
-3. https://atli-yeondi.tistory.com/30 Procedural Dungeon Generation in Unity #2
-
-4. https://atli-yeondi.tistory.com/31 유니티 개발일지 + Procedural Dungeon Generation in Unity #3
-
-5. https://atli-yeondi.tistory.com/35 Procedural Dungeon Generation in Unity #4
-
-영상 : https://youtube.com/playlist?list=PLMZ4SZ4Qaji3c0mmmiluDhWtS31DNp7yu
 
